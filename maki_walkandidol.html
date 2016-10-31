@@ -1,0 +1,916 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>maki_walkandidol</title>
+    <meta name="description" content="かつてJava Appletで作成したゲーム
+http://rrfgames.sitemix.jp/vf.html
+をphina.jsに移植してみようとサンプルからフォークして作っています。
+とりあえず歩かせてみました。" />
+    
+    <style>*, *:before, *:after {
+  box-sizing: border-box; 
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #444;
+  background-color: hsl(0, 0%, 96%);
+}
+h1 {
+  font-size: 1.8rem;
+}
+
+</style>
+  </head>
+  <body>
+    <script src="https://rawgit.com/rrf1050/test/master/build/phina.js"></script>
+    <script>
+
+// グローバルに展開
+phina.globalize();
+
+// 定数
+var ASSETS = {
+  image: {
+    bg: "http://jsrun.it/assets/a/G/5/Y/aG5YD.png",
+   maki0: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-0.png',
+    maki1: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-1.png',
+    maki2: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-2.png',
+    maki3: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-3.png',
+    maki4: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-4.png',
+    maki5: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-5.png',
+    maki6: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-6.png',
+  },
+	spritesheet: {
+		'maki_ss': 'https://rawgit.com/rrf1050/test/master/maki.ss',
+	},
+	json: {
+	  hantei0: 'https://rawgit.com/rrf1050/test/master/hantei/backstep/backstephantei.txt.json',
+	  hantei1: 'https://rawgit.com/rrf1050/test/master/hantei/backwalk/backwalkhantei.txt.json',
+	  hantei2: 'https://rawgit.com/rrf1050/test/master/hantei/counterdamage/counterdamagehantei.txt.json',
+	  hantei3: 'https://rawgit.com/rrf1050/test/master/hantei/damage/damagehantei.txt.json',
+	  hantei4: 'https://rawgit.com/rrf1050/test/master/hantei/dash/dashhantei.txt.json',
+	  hantei5: 'https://rawgit.com/rrf1050/test/master/hantei/down/downhantei.txt.json',
+	  hantei6: 'https://rawgit.com/rrf1050/test/master/hantei/idol/idolhantei.txt.json',
+	  hantei7: 'https://rawgit.com/rrf1050/test/master/hantei/jdamage/jdamagehantei.txt.json',
+	  hantei8: 'https://rawgit.com/rrf1050/test/master/hantei/jrslash/jrslashhantei.txt.json',
+	  hantei9: 'https://rawgit.com/rrf1050/test/master/hantei/jslash/jslashhantei.txt.json',
+	  hantei10: 'https://rawgit.com/rrf1050/test/master/hantei/jump/jumphantei.txt.json',
+	  hantei11: 'https://rawgit.com/rrf1050/test/master/hantei/sdamage/sdamagehantei.txt.json',
+	  hantei12: 'https://rawgit.com/rrf1050/test/master/hantei/shirimochi/shirimochihantei.txt.json',
+	  hantei13: 'https://rawgit.com/rrf1050/test/master/hantei/sit/sithantei.txt.json',
+	  hantei14: 'https://rawgit.com/rrf1050/test/master/hantei/slash1/slashhantei.txt.json',
+	  hantei15: 'https://rawgit.com/rrf1050/test/master/hantei/sslash/sslashhantei.txt.json',
+	  hantei16: 'https://rawgit.com/rrf1050/test/master/hantei/wakeup/wakeuphantei.txt.json',
+	  hantei17: 'https://rawgit.com/rrf1050/test/master/hantei/walk/walkhantei.txt.json',
+	  hantei18: 'https://rawgit.com/rrf1050/test/master/hantei/winpose/winposehantei.txt.json',
+	  hantei19: 'https://rawgit.com/rrf1050/test/master/hantei/wintoidol/wintoidolhantei.txt.json',
+	  hantei20: 'https://rawgit.com/rrf1050/test/master/hantei/backwalkbegin/backwalkbeginhantei.txt.json',
+	  hantei21: 'https://rawgit.com/rrf1050/test/master/hantei/walkbegin/walkbeginhantei.txt.json',
+	  hantei22: 'https://rawgit.com/rrf1050/test/master/hantei/standup/standuphantei.txt.json',
+	  hantei23: 'https://rawgit.com/rrf1050/test/master/hantei/sitdown/sitdownhantei.txt.json',
+	}
+};
+var SCREEN_WIDTH  = 960;              // スクリーン幅
+var SCREEN_HEIGHT = 640;              // スクリーン高さ
+var SPEED         = 10;
+var JUMP_Y = 0;
+var JUMP_DY=0;
+phina.define("GameInput",{
+  init: function(){
+    this.a=false;
+    this.b=false;
+    this.left=false;
+    this.right=false;
+    this.up=false;
+    this.down=false;
+  }
+});
+
+phina.define("GameObject",{
+  init: function(images,spritesheet,owner,x,y,isenemy){
+    this.object=Sprite(images[0]).addChildTo(owner);
+    (images.length-1).times(function(i){
+      this.object.addImage(images[i+1]);
+    },this);
+    this.object.setPosition(x,y);
+    this.object.origin.set(0,0);
+    this.object.frameIndex=0;
+    this.object_ss = FrameAnimation(spritesheet);
+    this.object_ss.attachTo(this.object);
+    this.object_ss.gotoAndPlay("idol");
+    
+    this.target=null;
+    
+    this.hitpoint = 10;
+    
+    
+    this.x_tmp=0;
+    this.y_tmp=0;
+    this.now=0;
+    this.start=0;
+    this.attack=0;
+    this.time=0;
+    this.pretime=0;
+    this.fingerswitchflag=false;
+    this.fingerdoulbeflag=false;
+    this.status = this.object_ss.currentAnimation.self;
+    this.pre_status = this.status;
+    this.frame = this.object_ss.currentFrameIndex;
+    this.direction = "right";
+    
+    this.counter_df1_r=0;
+    this.counter_df1_l=0;
+    this.counter_df2_r=0;
+    this.counter_df2_l=0;
+    this.df1_r=false;
+    this.df1_l=false;
+    this.df2_r=false;
+    this.df2_l=false;
+    this.df3_r=false;
+    this.df3_l=false;
+    this.counter_hold=0;
+    this.jslash_count=0;
+    this.towinpose=false;
+    this.input = GameInput();
+    if(!isenemy)
+      this.inputable=true;
+    else
+      this.inputalbe=false;
+    this.s_shiftflag=false;
+    this.isenemy=isenemy;
+    this.sousai=false;
+    this.hitflag=false;
+  },
+  update: function(pointer,pointers,keyboard){
+    
+    
+    
+    function statusupdate(owner){
+      var tmp=owner.pre_status;
+      owner.pre_status = owner.status;
+      owner.status = owner.object_ss.currentAnimation.self;
+      if(owner.pre_status===owner.status){
+        owner.pre_status=tmp;
+      }
+      owner.frame = owner.object_ss.currentFrameIndex;
+      //console.log(owner.pre_status,owner.status);
+    }
+    statusupdate(this);//アニメーション完了による状態変更を適用
+    
+    if(this.status!=="jump"&&this.status!=="jslash"&&this.status!=="dash"&&this.status!=="slash"&&this.status!=="jrslash"){
+      if(this.object.x < this.target.object.x)
+        this.direction="right";
+      else
+        this.direction="left";
+    }
+    if(this.status==="jump"&&this.pre_status==="jslash"&&!this.s_shiftflag){
+      this.s_shiftflag=true;
+      this.object_ss.currentFrameIndex=this.counter_hold-1;
+    }
+    if(this.status==="idol"&&this.pre_status==="jump"){
+      this.jslash_count=0;
+    }
+    if(this.status==="idol"&&this.towinpose){
+      this.object_ss.gotoAndPlay("winpose");
+      statusupdate(this);
+    }
+    
+    
+    //入力
+    if(this.inputable){
+      var p = pointer;
+      var ps = pointers;
+      var touches = [];
+      if(phina.isMobile()){
+        ps.forEach(function(p, i){
+          // 今タッチ中のものだけを touches に入れる
+          if(!p.getPointingEnd() && p.getPointing()){
+            touches.push(p);
+          }
+        });
+        if(this.fingerswitchflag){
+          if(ps[0]!=null){
+            if(ps[0].end){
+              this.fingerswitchflag=false;
+            }
+          }
+        }
+        if(this.fingerdoulbeflag){
+          if(ps[0]!=null){
+            if(ps[0].end){
+              this.fingerdoulbeflag=false;
+            }
+          }
+        }
+        
+        if(ps[0]!=null){
+          if(!this.fingerswitchflag){
+            this.now=ps[0].now;
+            this.start=ps[0].start;
+          }
+          //console.log("ps[0]",ps[0].position.x);
+          if(ps[0].start&&ps[1]!=null){
+            if(ps[1].start){
+              this.fingerdoulbeflag=true;
+            }
+          }
+          if(ps[0].end){
+          //  console.log("check");
+            if(ps[1]!=null){
+              if(ps[1].last){
+                this.fingerswitchflag=true;
+              }
+            }
+          }
+        }
+        if(touches.length==2){
+          //var label = Label(JSON.stringify(ps[1],null,"  ")).addChildTo(this);
+          //label.y=100;
+          if(!this.fingerdoulbeflag){
+            if(!this.fingerswitchflag)this.input.a=true;
+            else this.input.a=false;
+            //else this.attack=ps[0].now;
+          }
+          else this.input.a=false;
+          //console.log("ps[1]",ps[1].position.x);
+        }
+        else{
+          this.input.a=false;
+        }
+        
+        if(this.start){
+          this.x_tmp=p.x;
+          this.y_tmp=p.y;
+        }
+        if (this.now) {
+          var diff_x = this.x_tmp - p.x;
+          var diff_y = this.y_tmp - p.y;
+          if (Math.abs(diff_x) > SPEED*10) {
+            if (diff_x < 0) {
+              this.input.right=true;
+            }
+            else {
+              this.input.left=true;
+            }
+          }
+          if(diff_y > SPEED*10){
+            this.input.up=true;
+          }
+          if(diff_y < -SPEED*10){
+            this.input.down=true;
+          }
+          if(Math.abs(diff_x)<=SPEED*10){
+            this.input.right=false;
+            this.input.left=false;
+          }
+          if(Math.abs(diff_y)<=SPEED*10){
+            this.input.up=false;
+            this.input.down=false;
+          }
+        }
+        else {
+          this.input.up=false;
+          this.input.down=false;
+          this.input.left=false;
+          this.input.right=false;
+        }
+      }
+      else{
+        this.input.left=keyboard.getKey("left");
+        this.input.right=keyboard.getKey("right");
+        this.input.up=keyboard.getKey("up");
+        this.input.down=keyboard.getKey("down");
+        this.input.a=keyboard.getKey("z");
+      }
+    }
+    //入力から状態を決定
+    if(!this.input.left){
+      if(this.df3_l)
+        this.df3_l=false;
+      
+			if(this.df1_l&&!this.df2_l&& this.counter_df1_l < 6){
+				this.df1_l=false;
+				this.df2_l=true;
+				this.counter_df1_l = 0;
+			}
+			else if(this.df1_l&&6<=this.counter_df1_l){
+				this.df1_l=false;
+				this.df2_l=false;
+				this.counter_df1_l = 0;
+			}
+      if(this.direction=="left"&&(this.status==="walkbegin"||this.status==="walk"||this.status==="dash")){
+        if(this.status==="dash"){
+          this.counter_df2_l=0;
+          this.df2_l=false;
+        }
+        this.object_ss.gotoAndPlay("idol");
+        statusupdate(this);
+      }
+      else if(this.direction=="right"&&(this.status==="backwalkbegin"||this.status==="backwalk")){
+        this.object_ss.gotoAndPlay("idol");
+        statusupdate(this);
+      }
+    }
+    if(!this.input.right){
+      if(this.df3_r)
+        this.df3_r=false;
+      if(this.df1_r&&!this.df2_r&& this.counter_df1_r < 6){
+				this.df1_r=false;
+				this.df2_r=true;
+				this.counter_df1_r = 0;
+			}
+			else if(this.df1_r&&6<=this.counter_df1_r){
+				this.df1_r=false;
+				this.df2_r=false;
+				this.counter_df1_r = 0;
+			}
+			if(this.direction=="right"&&(this.status==="walkbegin"||this.status==="walk"||this.status==="dash")){
+        if(this.status==="dash"){
+          this.counter_df2_r=0;
+          this.df2_r=false;
+        }
+        this.object_ss.gotoAndPlay("idol");
+        statusupdate(this);
+      }
+      else if(this.direction=="left"&&(this.status==="backwalkbegin"||this.status==="backwalk")){
+        this.object_ss.gotoAndPlay("idol");
+        statusupdate(this);
+      }
+    }
+    if(!this.input.down){
+      if(this.status==="sit"){
+          this.object_ss.gotoAndPlay("standup");
+          statusupdate(this);
+        }
+    }
+    if(this.input.left){
+      if(this.df3_l){
+        this.df3_l=false;
+        if(this.status==="idol"){
+          this.object_ss.gotoAndPlay("dash");
+          statusupdate(this);
+        }
+      }
+      this.df1_l=true;
+      if(this.df2_l&& this.counter_df2_l <6){
+				this.df2_l = false;
+				this.counter_df2_l = 0;
+				if(this.status === "idol"||this.status == "walk"||this.status == "walkbegin"){
+					if(this.direction ==="left"){
+						this.object_ss.gotoAndPlay("dash");
+            statusupdate(this);
+					}
+					else{
+						this.object_ss.gotoAndPlay("backstep");
+            statusupdate(this);
+					}
+				}
+			}
+			else if(this.df2_l){
+			  this.df2_l = false;
+				this.counter_df2_l = 0;
+			}
+      if(this.direction=="left"){
+        if(this.status==="idol"||this.status==="backwalk"||this.status==="backwalkbegin"){
+          this.object_ss.gotoAndPlay("walkbegin");
+          statusupdate(this);
+        }
+      }
+      else{
+        if(this.status==="idol"||this.status==="walk"||this.status==="walkbegin"){
+          this.object_ss.gotoAndPlay("backwalkbegin");
+          statusupdate(this);
+        }
+      }
+    }
+    if(this.input.right){
+      if(this.df3_r){
+        this.df3_r=false;
+        if(this.status==="idol"){
+          this.object_ss.gotoAndPlay("dash");
+          statusupdate(this);
+        }
+      }
+      this.df1_r=true;
+      if(this.df2_r&& this.counter_df2_r <6){
+				this.df2_r = false;
+				this.counter_df2_r = 0;
+				if(this.status === "idol"||this.status == "walk"||this.status == "walkbegin"){
+					if(this.direction ==="right"){
+						this.object_ss.gotoAndPlay("dash");
+            statusupdate(this);
+					}
+					else{
+						this.object_ss.gotoAndPlay("backstep");
+            statusupdate(this);
+					}
+				}
+			}
+			else if(this.df2_r){
+			  this.df2_r = false;
+				this.counter_df2_r = 0;
+			}
+      if(this.direction=="right"){
+        if(this.status==="idol"||this.status==="backwalk"||this.status==="backwalkbegin"){
+          this.object_ss.gotoAndPlay("walkbegin");
+          statusupdate(this);
+        }
+      }
+      else{
+        if(this.status==="idol"||this.status==="walk"||this.status==="walkbegin"){
+         this.object_ss.gotoAndPlay("backwalkbegin");
+         statusupdate(this);
+        }
+      }
+    }
+    if(this.input.up){
+      if(this.status==="idol"||this.status==="backwalkbegin"||this.status==="backwalk"||this.status==="walkbegin"||this.status==="walk"||this.status==="dash"){
+          this.object_ss.gotoAndPlay("jump");
+          statusupdate(this);
+          if(this.pre_status==="dash"){
+            this.object_ss.currentFrameIndex=2;
+          }
+        }
+    }
+    if(this.input.down){
+      if(this.status==="idol"||this.status==="backwalkbegin"||this.status==="backwalk"||this.status==="walkbegin"||this.status==="walk"){
+        this.object_ss.gotoAndPlay("sitdown");
+        statusupdate(this);
+      }
+      else if(this.status==="dash"){
+        this.object_ss.gotoAndPlay("sit");
+        statusupdate(this);
+      }
+    }
+    if(this.input.a){
+      //console.log("attack");
+      if(this.status==="idol"||this.status==="walk"||this.status==="walkbegin"||this.status==="backwalk"||this.status==="backwalkbegin"){
+        this.object_ss.gotoAndPlay("slash");
+        statusupdate(this);
+      }
+      if(this.status==="dash"){
+        this.object_ss.gotoAndPlay("slash");
+        statusupdate(this);
+      }
+      if(this.status=="jump"&&this.frame===2){
+        this.object_ss.gotoAndPlay("jrslash");
+        statusupdate(this);
+      }
+      if(this.status==="jump"&&2<this.frame&&this.frame<18&&this.jslash_count<3){
+        this.jslash_count++;
+        this.counter_hold=this.frame;
+        this.object_ss.gotoAndPlay("jslash");
+        statusupdate(this);
+        this.s_shiftflag=false;
+      }
+      if(this.status=="sit"){
+        this.object_ss.gotoAndPlay("sslash");
+        statusupdate(this);
+      }
+    }
+    //状態から動作を決定
+    if(this.status==="walkbegin"||this.status==="walk"){
+     if(this.direction=="right"){
+      this.object.x += SPEED;
+     }
+     else{
+       this.object.x -= SPEED;
+     }
+    }
+    if(this.status==="backwalkbegin"||this.status==="backwalk"){
+      if(this.direction=="right"){
+      this.object.x -= SPEED;
+     }
+     else{
+       this.object.x += SPEED;
+     }
+    }
+    if(this.status==="dash"){
+      if(this.direction==="right"){
+        this.object.x += 19;
+      }
+      else{
+        this.object.x -= 19;
+      }
+    }
+    if(this.status==="backstep"){
+      if(1<this.frame&&this.frame<14){
+        if(this.direction==="right"){
+          this.object.x -= 20;
+        }
+        else{
+          this.object.x += 20;
+        }
+      }
+    }
+    if(this.status==="jump"){
+      if(this.pre_status==="dash"&&!this.df3_r&&!this.df3_l){
+        if(this.direction==="right"){
+          this.df3_r=true;
+        }
+        else{
+          this.df3_l=true;
+        }
+      }
+      if(2<this.frame&&this.frame<18){
+        JUMP_Y = 2.5*Math.pow(this.frame-9.5,2)-106;
+        JUMP_DY = JUMP_Y-(2.5*Math.pow(this.frame-1-9.5,2)-106);
+        this.object.y += JUMP_DY;
+      }
+      if(this.pre_status==="walk"||this.pre_status==="walkbegin"){
+        if(this.direction=="right"){
+          this.object.x += SPEED;
+        }
+        else{
+          this.object.x -= SPEED;
+        }
+      }
+      if(this.pre_status==="backwalk"||this.pre_status==="backwalkbegin"){
+        if(this.direction=="right"){
+          this.object.x -= SPEED;
+         }
+         else{
+           this.object.x += SPEED;
+         }
+      }
+      if(this.pre_status==="dash"){
+        if(this.direction=="right"){
+          this.object.x += 19;
+        }
+        else{
+          this.object.x -= 19;
+        }
+      }
+      
+    }
+    if(this.status==="jrslash"){
+      if(this.frame<15){
+        JUMP_Y = 2.5*Math.pow(this.frame+3-9.5,2)-106;
+        JUMP_DY = JUMP_Y-(2.5*Math.pow(this.frame+3-1-9.5,2)-106);
+        this.object.y += JUMP_DY;
+      }
+      if(this.direction=="right"){
+        this.object.x += SPEED*3;
+      }
+      else{
+        this.object.x -= SPEED*3;
+      }
+    }
+    
+    if(this.direction=="right"){
+      this.object.scaleX=-1;
+    }
+    else{
+      this.object.scaleX=1;
+    }
+    
+    if(this.df1_l)
+      this.counter_df1_l++;
+    if(this.df1_r)
+      this.counter_df1_r++;
+    if(this.df2_l)
+      this.counter_df2_l++;
+    if(this.df2_r)
+      this.counter_df2_r++;
+  },
+  updatehantei: function(hanteilist,hanteipool){
+    var str = this.status;
+    var i = 0;
+    switch (str) {
+      case 'backstep':
+        i=0;
+        break;
+      case 'backwalk':
+        i=1;
+        break;
+      case 'counterdamage':
+        i=2;
+        break;
+      case 'damage':
+        i=3;
+        break;
+      case 'dash':
+        i=4;
+        break;
+      case 'down':
+        i=5;
+        break;
+      case 'idol':
+        i=6;
+        break;
+      case 'jdamag':
+        i=7;
+        break;
+      case 'jrslash':
+        i=8;
+        break;
+      case 'jslash':
+        i=9;
+        break;
+      case 'jump':
+        i=10;
+        break;
+      case 'sdamage':
+        i=11;
+        break;
+      case 'shirimochi':
+        i=12;
+        break;
+      case 'sit':
+        i=13;
+        break;
+      case 'slash':
+        i=14;
+        break;
+      case 'sslash':
+        i=15;
+        break;
+      case 'wakeup':
+        i=16;
+        break;
+      case 'walk':
+        i=17;
+        break;
+      case 'winpose':
+        i=18;
+        break;
+      case 'wintoidol':
+        i=19;
+        break;
+      case 'backwalkbegin':
+        i=20;
+        break;
+      case 'walkbegin':
+        i=21;
+        break;
+      case 'standup':
+        i=22;
+        break;
+      case 'sitdown':
+        i=23;
+        break;
+      default:
+        i=5;
+    }
+    
+    (hanteilist[i][this.frame].hantei.length).times(function(j){
+      var h = new Object();
+      h.type = hanteilist[i][this.frame].hantei[j].type;
+      h.x1 = hanteilist[i][this.frame].hantei[j].x1;
+      h.y1 = hanteilist[i][this.frame].hantei[j].y1;
+      h.x2 = hanteilist[i][this.frame].hantei[j].x2;
+      h.y2 = hanteilist[i][this.frame].hantei[j].y2;
+      
+      if(this.direction=="right"){
+        var tmp = h.x1;
+  			h.x1 = SCREEN_WIDTH/2-(h.x2-SCREEN_WIDTH/2);
+  			h.x2 = SCREEN_WIDTH/2-(tmp-SCREEN_WIDTH/2);
+  			
+      }
+      if(this.isenemy){
+        if(h.type==="body"){
+          h.type="body_e";
+        }
+        if(h.type==="attack"){
+          h.type="attack_e";
+        }
+      }
+      else{
+        if(h.type==="body"){
+          h.type="body_p";
+        }
+        if(h.type==="attack"){
+          h.type="attack_p";
+        }
+      }
+      h.x1 += this.object.x;
+      h.x2 += this.object.x;
+      h.y1 += this.object.y;
+      h.y2 += this.object.y;
+      hanteipool.push(h);
+    },this);
+    
+  },
+  damage: function(){
+    function statusupdate(owner){
+      var tmp=owner.pre_status;
+      owner.pre_status = owner.status;
+      owner.status = owner.object_ss.currentAnimation.self;
+      if(owner.pre_status===owner.status){
+        owner.pre_status=tmp;
+      }
+      owner.frame = owner.object_ss.currentFrameIndex;
+      //console.log(owner.pre_status,owner.status);
+    }
+    if(this.status==="jump"||this.status==="jslash"){
+      if(this.status==="jump"){
+        this.counter_hold=this.frame;
+      }
+      this.object_ss.gotoAndPlay("jdamage");
+      statusupdate(this);
+    }
+    else if(this.status==="sit"){
+      this.object_ss.gotoAndPlay("sdamage");
+      statusupdate(this);
+    }
+    else if(this.status==="slash"&&this.target.status==="sslash"){
+      this.object_ss.gotoAndPlay("counterdamage");
+      statusupdate(this);
+    }
+    else if(this.status==="sslash"&&this.target.status==="jrslash"){
+      this.object_ss.gotoAndPlay("counterdamage");
+      statusupdate(this);
+    }
+    else{
+      this.object_ss.gotoAndPlay("damage");
+      statusupdate(this);
+    }
+    //console.log("check");
+  }
+});
+/*
+ * メインシーン
+ */
+phina.define("MainScene", {
+  // 継承
+  superClass: 'DisplayScene',
+
+  // 初期化
+  init: function(options) {
+    // super init
+    this.superInit(options);
+
+    // 背景
+    this.bg = Sprite("bg").addChildTo(this);
+    this.bg.origin.set(0, 0); // 左上基準に変更
+
+    // プレイヤー
+    this.player = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,-300,0,false);
+    this.enemy = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,300,0,true);
+    
+    this.player.target=this.enemy;
+    this.enemy.target=this.player;
+    
+    this.hanteilist = [];
+    var _hanteis = ["hantei0","hantei1","hantei2","hantei3","hantei4","hantei5","hantei6","hantei7","hantei8","hantei9","hantei10","hantei11","hantei12","hantei13","hantei14","hantei15","hantei16","hantei17","hantei18","hantei19"
+    ,"hantei20","hantei21","hantei22","hantei23"
+    ];
+    (_hanteis.length).times(function(i){
+      var tmp = phina.asset.AssetManager.get("json",_hanteis[i]);
+      this.hanteilist.push(tmp.data);
+    },this);
+    this.hanteipool=[];
+    
+    this.karaburiflag1_p=false;
+    this.karaburiflag2_p=false;
+    this.karaburiflag1_e=false;
+    this.karaburiflag2_e=false;
+    //this.test = phina.asset.AssetManager.get("json","test");
+  },
+  
+  // 更新
+  update: function(app) {
+    function Collision(h1,h2){
+      if(h1.x1<h2.x2&&h2.x1<h1.x2&&h1.y1<h2.y2&&h2.y1<h1.y2){
+        return true;
+      }
+      else return false;
+    }
+    this.player.update(app.pointer,app.pointers,app.keyboard);
+    this.enemy.update()
+    this.hanteipool = [];
+    this.player.updatehantei(this.hanteilist,this.hanteipool);
+    this.enemy.updatehantei(this.hanteilist,this.hanteipool);
+    
+    (this.hanteipool.length).times(function(i){
+      if(this.hanteipool[i].type==="attack_p"){
+        this.karaburiflag2_p=false;
+        this.karaburiflag1_p=true;
+        (this.hanteipool.length).times(function(j){
+          if(this.hanteipool[j].type==="attack_e"){
+            if(Collision(this.hanteipool[i],this.hanteipool[j])){
+              this.karaburiflag1_p=false;
+              //soundSE1
+              this.player.sousai=true;
+              this.enemy.sousai=true;
+            }
+          }
+        },this);
+        (this.hanteipool.length).times(function(j){
+          if(this.hanteipool[j].type==="body_e"){
+            if(Collision(this.hanteipool[i],this.hanteipool[j])){
+              this.karaburiflag1_p=false;
+              if(!this.player.hitflag&&this.enemy.hitpoint>0){
+                if(!this.player.sousai){
+                  this.enemy.hitpoint--;
+                  //HPreduce
+                }
+              }
+              //soundSE1
+              this.enemy.damage();
+              this.player.hitflag=true;
+            }
+          }
+        },this);
+      }
+      else if(this.hanteipool[i].type==="attack_e"){
+        this.karaburiflag2_e=false;
+        this.karaburiflag1_e=true;
+        (this.hanteipool.length).times(function(j){
+          if(this.hanteipool[j].type==="attack_p"){
+            if(Collision(this.hanteipool[i],this.hanteipool[j])){
+              this.karaburiflag1_e=false;
+              this.player.sousai=true;
+              this.enemy.sousai=true;
+            }
+          }
+        },this);
+        (this.hanteipool.length).times(function(j){
+          if(this.hanteipool[j].type==="body_p"){
+            if(Collision(this.hanteipool[i],this.hanteipool[j])){
+              this.karaburiflag1_e=false;
+              if(!this.enemy.hitflag&&this.player.hitpoint>0){
+                if(!this.enemy.sousai){
+                  this.player.hitpoint--;
+                  //HPreduce
+                }
+              }
+              //soundSE1
+              this.player.damage();
+              this.enemy.hitflag=true;
+            }
+          }
+        },this);
+      }
+    },this);
+    if(this.karaburiflag2_p&&!this.player.hitflag
+    &&this.player.status!="damage"
+    &&this.player.status!="jdamage"
+    &&this.player.status!="sdamage"
+    &&this.player.status!="counterdamage"){
+      this.karaburiflag1_p=false;
+      this.karaburiflag2_p=false;
+      //PLAYSE
+    }
+    if(this.karaburiflag2_p&&(this.player.hitflag
+    ||this.player.status=="damage"
+    ||this.player.status=="jdamage"
+    ||this.player.status=="sdamage"
+    ||this.player.status=="counterdamage")){
+      this.karaburiflag1_p=false;
+      this.karaburiflag2_p=false;
+    }
+    if(this.karaburiflag2_e&&!this.enemy.hitflag
+    &&this.enemy.status!="damage"
+    &&this.enemy.status!="jdamage"
+    &&this.enemy.status!="sdamage"
+    &&this.enemy.status!="counterdamage"){
+      this.karaburiflag1_e=false;
+      this.karaburiflag2_e=false;
+      //PLAYSE
+    }
+    if(this.karaburiflag2_e&&(this.enemy.hitflag
+    ||this.enemy.status=="damage"
+    ||this.enemy.status=="jdamage"
+    ||this.enemy.status=="sdamage"
+    ||this.enemy.status=="counterdamage")){
+      this.karaburiflag1_e=false;
+      this.karaburiflag2_e=false;
+    }
+    if(this.karaburiflag1_p)
+      this.karaburiflag2_p=true;
+    if(this.karaburiflag1_e)
+      this.karaburiflag2_e=true;
+    //console.log(this.player.direction);
+  }
+});
+
+/*
+ * メイン処理
+ */
+phina.main(function() {
+  // アプリケーションを生成
+  var app = GameApp({
+    startLabel: 'main',   // MainScene から開始
+    width: SCREEN_WIDTH,  // 画面幅
+    height: SCREEN_HEIGHT,// 画面高さ
+    assets: ASSETS,       // アセット読み込み
+  });
+
+  app.enableStats();
+
+  // 実行
+  app.run();
+});
+
+</script>
+  </body>
+</html>
+
