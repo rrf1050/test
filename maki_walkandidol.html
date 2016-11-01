@@ -38,7 +38,7 @@ phina.globalize();
 // 定数
 var ASSETS = {
   image: {
-    bg: "http://jsrun.it/assets/a/G/5/Y/aG5YD.png",
+    bg: "https://rawgit.com/rrf1050/test/master/haikei.png",
    maki0: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-0.png',
     maki1: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-1.png',
     maki2: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-2.png',
@@ -75,10 +75,24 @@ var ASSETS = {
 	  hantei21: 'https://rawgit.com/rrf1050/test/master/hantei/walkbegin/walkbeginhantei.txt.json',
 	  hantei22: 'https://rawgit.com/rrf1050/test/master/hantei/standup/standuphantei.txt.json',
 	  hantei23: 'https://rawgit.com/rrf1050/test/master/hantei/sitdown/sitdownhantei.txt.json',
+	  hantei24: 'https://rawgit.com/rrf1050/test/master/hantei/jdamage_keep/jdamage_keephantei.txt.json',
+	},
+	sound: {
+	  cancel: 'https://rawgit.com/rrf1050/test/master/se/cancel.wav',
+	  chit: 'https://rawgit.com/rrf1050/test/master/se/chit.wav',
+	  cursor: 'https://rawgit.com/rrf1050/test/master/se/cursor.wav',
+	  enter: 'https://rawgit.com/rrf1050/test/master/se/enter.wav',
+	  fight: 'https://rawgit.com/rrf1050/test/master/se/fight.wav',
+	  jhit: 'https://rawgit.com/rrf1050/test/master/se/jhit.wav',
+	  karaburi: 'https://rawgit.com/rrf1050/test/master/se/karaburi.wav',
+	  sousai: 'https://rawgit.com/rrf1050/test/master/se/metal.wav',
+	  ready: 'https://rawgit.com/rrf1050/test/master/se/ready.wav',
+	  slash: 'https://rawgit.com/rrf1050/test/master/se/slash.wav',
+	  todome: 'https://rawgit.com/rrf1050/test/master/se/todome.wav',
 	}
 };
 var SCREEN_WIDTH  = 960;              // スクリーン幅
-var SCREEN_HEIGHT = 640;              // スクリーン高さ
+var SCREEN_HEIGHT = 540;              // スクリーン高さ
 var SPEED         = 10;
 var JUMP_Y = 0;
 var JUMP_DY=0;
@@ -147,6 +161,16 @@ phina.define("GameObject",{
     this.isenemy=isenemy;
     this.sousai=false;
     this.hitflag=false;
+    
+    this.mode="safe";
+    this.cattack=false;
+    this.sit=false;
+    this.okizeme=false;
+    this.hangeki=false;
+    this.demo=true;
+    this.winposecounter=0;
+    this.sitcounter=0;
+    this.cattackcounter=0;
   },
   update: function(pointer,pointers,keyboard){
     
@@ -164,7 +188,9 @@ phina.define("GameObject",{
     }
     statusupdate(this);//アニメーション完了による状態変更を適用
     
-    if(this.status!=="jump"&&this.status!=="jslash"&&this.status!=="dash"&&this.status!=="slash"&&this.status!=="jrslash"){
+    if(this.status!=="damage"&&this.status!=="jdamage"&&this.status!=="sdamage"&&this.status!=="counterdamage"
+    &&this.status!=="jump"&&this.status!=="jslash"&&this.status!=="dash"&&this.status!=="slash"
+    &&this.status!=="jrslash"&&this.status!="jdamage_keep"&&this.status!="shirimochi"&&!this.df3_l&&!this.df3_r){
       if(this.object.x < this.target.object.x)
         this.direction="right";
       else
@@ -172,7 +198,8 @@ phina.define("GameObject",{
     }
     if(this.status==="jump"&&this.pre_status==="jslash"&&!this.s_shiftflag){
       this.s_shiftflag=true;
-      this.object_ss.currentFrameIndex=this.counter_hold-1;
+      this.object_ss.currentFrameIndex=this.counter_hold;
+      statusupdate(this);
     }
     if(this.status==="idol"&&this.pre_status==="jump"){
       this.jslash_count=0;
@@ -181,7 +208,38 @@ phina.define("GameObject",{
       this.object_ss.gotoAndPlay("winpose");
       statusupdate(this);
     }
-    
+    if(this.status == "jdamage_keep"&&this.pre_status=="jdamage"&&!this.s_shiftflag){
+      this.s_shiftflag=true;
+      this.hitflag=false;
+      this.sousai=false;
+      var tmp = this.counter_hold;
+      if(tmp -1 < 10){
+        tmp=10+10-(tmp-1)+1;
+      }
+      //console.log(tmp);
+      this.object_ss.currentFrameIndex=tmp;
+      statusupdate(this);
+    }
+    if(this.status==="idol"&&this.pre_status==="damage"){
+      this.hitflag=false;
+      this.sousai=false;
+    }
+    if(this.status==="idol"&&this.pre_status==="slash"){
+      this.hitflag=false;
+      this.sousai=false;
+    }
+    if(this.status==="idol"&&this.pre_status==="sslash"){
+      this.hitflag=false;
+      this.sousai=false;
+    }
+    if(this.status==="jump"&&this.pre_status==="jslash"){
+      this.hitflag=false;
+      this.sousai=false;
+    }
+    if(this.status==="idol"&&this.pre_status==="jrslash"){
+      this.hitflag=false;
+      this.sousai=false;
+    }
     
     //入力
     if(this.inputable){
@@ -209,7 +267,6 @@ phina.define("GameObject",{
             }
           }
         }
-        
         if(ps[0]!=null){
           if(!this.fingerswitchflag){
             this.now=ps[0].now;
@@ -288,6 +345,230 @@ phina.define("GameObject",{
         this.input.up=keyboard.getKey("up");
         this.input.down=keyboard.getKey("down");
         this.input.a=keyboard.getKey("z");
+      }
+    }
+    else{
+      this.input.a=false;
+      this.input.b=false;
+      this.input.up=false;
+      this.input.down=false;
+      this.input.left=false;
+      this.input.right=false;
+      
+      if(this.mode=="sslash"){
+        this.input.down=true;
+        this.input.a=true;
+      }
+      if(this.mode!="standby"){
+        if(this.status=="winpose_keep"){
+          this.winposecounter++;
+          if(this.winposecounter>=30){
+            this.winposecounter=0;
+            this.object_ss.gotoAndPlay("wintoidol");
+            updatehantei(this);
+          }
+        }
+        if(this.status=="damage"){
+          this.mode="wait";
+        }
+        if(this.target.status=="counterdamage"){
+          this.mode="wait";
+          this.hangeki=true;
+        }
+        if(this.target.status=="jdamage"){
+          this.mode="wait";
+          this.okizeme=true;
+        }
+        if(this.mode=="wait"){
+          if(this.status=="idol"){
+            this.mode="safe";
+            if(this.okizeme){
+              this.mode="okizeme";
+              this.okizeme=false;
+            }
+            if(this.hangeki){
+              this.mode="hangeki";
+              this.hangeki=false;
+            }
+          }
+          if(this.status=="sit"){
+            this.sit=false;
+          }
+        }
+        if(this.mode=="safe"){
+          if(this.sit){
+            this.sitcounter++;
+            this.input.down=true;
+            var tmp = Math.random();
+            if(tmp<0.2){
+              this.mode="combo";
+            }
+            if(this.sitcounter>7){
+              this.input.down=false;
+              this.sitcounter=0;
+              this.sit=false;
+            }
+          }
+          else{
+            if(Math.abs(this.object.x-this.target.object.x)<410&&!this.cattack){
+              if(this.status==="jump"){
+                if(Math.abs(this.object.x-this.target.object.x)<285&&this.target.status!="sit"&&this.target.status!="sslash")
+                  this.input.a=true;
+              }
+              if(this.target.status=="sslash"){
+              this.input.up=true;
+              this.input.a=true;
+              }
+              if(this.target.status=="slash"){
+                this.sit=true;
+                this.input.down=true;
+                this.sitcounter=0;
+              }
+              if(this.target.status=="dash"){
+                var tmp=Math.random();
+                if(tmp<0.5){
+                  this.input.a=true;
+                }
+                else{
+                  this.input.down=true;
+                  this.sit=true;
+                  this.mode="combo";
+                }
+              }
+              else if(this.target.status=="jump"){
+                this.input.a=true;
+              }
+              else{
+                if(this.target.object.x<this.object.x)
+                  this.input.right=true;
+                else
+                  this.input.left=true;
+              }
+            }
+            if(Math.abs(this.object.x-this.target.object.x)>=410&&Math.abs(this.object.x-this.target.object.x)<410+48&&this.target.status=="slash"){
+              this.cattack=true;
+            }
+            if(this.cattack){
+              this.cattackcounter++;
+              if(this.cattackcounter>5){
+                this.cattackcounter=0;
+                this.cattack=false;
+                this.input.a=true;
+              }
+            }
+            if(this.target.status=="damage"){
+              this.mode="combo";
+            }
+            if(410<=Math.abs(this.object.x-this.target.object.x)&&Math.abs(this.object.x-this.target.object.x)<460){
+              if(this.target.object.x<this.object.x)
+                this.input.right=true;
+              else
+                this.input.left=true;
+            }
+            if(460<=Math.abs(this.object.x-this.target.object.x)&&Math.abs(this.object.x-this.target.object.x)<500){
+              var tmp=Math.random();
+              if(tmp<0.2)
+                this.input.a=true;
+            }
+            if(500<=Math.abs(this.object.x-this.target.object.x)){
+              var tmp=Math.random();
+              if(tmp<0.01){
+                this.input.a=true;
+              }
+              else{
+                if(this.target.object.x<this.object.x)
+                  this.input.left=true;
+                else
+                  this.input.right=true;
+              }
+            }
+          }
+        }
+        if(this.mode=="combo"){
+          if(this.status=="jump"){
+            this.input.a=true;
+          }
+          if(this.status=="idol"){
+            var tmp = Math.random();
+            if(tmp < 1/3){
+              this.input.a=true;
+            }
+            else if(tmp < 2/3){
+              this.sit=true;
+              this.input.down=true;
+            }
+            else{
+              this.input.up=true;
+              this.input.a=true;
+            }
+          }
+          if(this.sit){
+            this.input.down=true;
+            if(this.status=="sit"){
+              this.sit=false;
+              this.input.a=true;
+              this.mode="wait";
+            }
+          }
+        }
+        if(this.mode=="okizeme"){
+          if(Math.abs(this.object.x-this.target.object.x)>=400){
+            if(this.target.object.x<this.object.x){
+              if(this.status=="idol"){
+                this.object_ss.gotoAndPlay("dash");
+                statusupdate(this);
+              }
+              this.input.left=true;
+            }
+            else{
+              if(this.status=="idol"){
+                this.object_ss.gotoAndPlay("dash");
+                statusupdate(this);
+              }
+              this.input.right=true;
+            }
+          }
+          else{
+            this.input.a=true;
+            this.mode="wait";
+          }
+        }
+        if(this.mode=="hangeki"){
+          if(this.target.status!="counterdamage"){
+            this.mode="safe";
+          }
+          if(Math.abs(this.object.x-this.target.object.x)<250){
+            if(this.target.object.x<this.object.x)
+                this.input.right=true;
+              else
+                this.input.left=true;
+          }
+          else{
+            this.input.a=true;
+            if(this.target.status==="damage"){
+              this.mode="combo";
+            }
+          }
+        }
+      }
+      else{
+        this.input.down=false;
+        if(this.isenemy){
+          if(this.object.x>=310){
+            this.input.left=true;
+          }
+          if(this.object.x<300){
+            this.input.right=true;
+          }
+        }
+        else{
+          if(this.object.x<=-310){
+            this.input.right=true;
+          }
+          if(this.object.x>-300){
+            this.input.left=true;
+          }
+        }
       }
     }
     //入力から状態を決定
@@ -436,6 +717,7 @@ phina.define("GameObject",{
           statusupdate(this);
           if(this.pre_status==="dash"){
             this.object_ss.currentFrameIndex=2;
+            statusupdate(this);
           }
         }
     }
@@ -459,7 +741,7 @@ phina.define("GameObject",{
         this.object_ss.gotoAndPlay("slash");
         statusupdate(this);
       }
-      if(this.status=="jump"&&this.frame===2){
+      if(this.status=="jump"&&this.frame<=2){
         this.object_ss.gotoAndPlay("jrslash");
         statusupdate(this);
       }
@@ -508,6 +790,16 @@ phina.define("GameObject",{
         else{
           this.object.x += 20;
         }
+      }
+    }
+    if(this.status==="slash"){
+      if(4<this.frame&&this.frame<8){
+        if(this.direction=="right"){
+          this.object.x += 16;
+         }
+         else{
+           this.object.x -= 16;
+         }
       }
     }
     if(this.status==="jump"){
@@ -563,7 +855,38 @@ phina.define("GameObject",{
         this.object.x -= SPEED*3;
       }
     }
-    
+    if(this.status==="jdamage"){
+      if(this.direction=="right"){
+        this.object.x -= SPEED*3;
+      }
+      else{
+        this.object.x += SPEED*3;
+      }
+    }
+    if(this.status==="jdamage_keep"){
+      if(this.direction=="right"){
+        this.object.x -= SPEED*3;
+      }
+      else{
+        this.object.x += SPEED*3;
+      }
+      JUMP_Y = 2.5*Math.pow(this.frame-9.5,2)-106;
+      JUMP_DY = JUMP_Y-(2.5*Math.pow(this.frame-1-9.5,2)-106);
+      this.object.y += JUMP_DY;
+      if(this.object.y>=0){
+        this.object.y=0;
+        this.object_ss.gotoAndPlay("shirimochi");
+        statusupdate(this);
+      }
+    }
+    if(this.status==="shirimochi"){
+      if(this.direction=="right"){
+        this.object.x -= SPEED*3;
+      }
+      else{
+        this.object.x += SPEED*3;
+      }
+    }
     if(this.direction=="right"){
       this.object.scaleX=-1;
     }
@@ -605,7 +928,7 @@ phina.define("GameObject",{
       case 'idol':
         i=6;
         break;
-      case 'jdamag':
+      case 'jdamage':
         i=7;
         break;
       case 'jrslash':
@@ -656,10 +979,15 @@ phina.define("GameObject",{
       case 'sitdown':
         i=23;
         break;
+      case 'jdamage_keep':
+        i=24;
+        break;
       default:
         i=5;
     }
-    
+    if(hanteilist[i][this.frame]==null){
+      console.log(this.status,this.frame,this.counter_hold);
+    }
     (hanteilist[i][this.frame].hantei.length).times(function(j){
       var h = new Object();
       h.type = hanteilist[i][this.frame].hantei[j].type;
@@ -698,7 +1026,7 @@ phina.define("GameObject",{
     },this);
     
   },
-  damage: function(){
+  damage: function(owner){
     function statusupdate(owner){
       var tmp=owner.pre_status;
       owner.pre_status = owner.status;
@@ -709,30 +1037,48 @@ phina.define("GameObject",{
       owner.frame = owner.object_ss.currentFrameIndex;
       //console.log(owner.pre_status,owner.status);
     }
-    if(this.status==="jump"||this.status==="jslash"){
-      if(this.status==="jump"){
+    if(this.status==="jump"||this.status==="jslash"||this.status==="jrslash"){
+      if(this.status==="jump"||this.status==="jrslash"){
+        this.s_shiftflag=false;
         this.counter_hold=this.frame;
+        if(this.status==="jrslash"){
+          this.counter_hold+=2;
+        }
       }
+      if(this.object.x < this.target.object.x)
+        this.direction="right";
+      else
+        this.direction="left";
       this.object_ss.gotoAndPlay("jdamage");
       statusupdate(this);
+      if(!this.sousai)
+        owner.jhitSE.play();
     }
     else if(this.status==="sit"){
       this.object_ss.gotoAndPlay("sdamage");
       statusupdate(this);
+      if(!this.sousai)
+        owner.slashSE.play();
     }
     else if(this.status==="slash"&&this.target.status==="sslash"){
       this.object_ss.gotoAndPlay("counterdamage");
       statusupdate(this);
+      if(!this.sousai)
+        owner.chitSE.play();
     }
     else if(this.status==="sslash"&&this.target.status==="jrslash"){
       this.object_ss.gotoAndPlay("counterdamage");
       statusupdate(this);
+      if(!this.sousai)
+        owner.chitSE.play();
     }
     else{
       this.object_ss.gotoAndPlay("damage");
       statusupdate(this);
+      if(!this.sousai)
+        owner.slashSE.play();
     }
-    //console.log("check");
+  //console.log(this.status);
   }
 });
 /*
@@ -749,21 +1095,28 @@ phina.define("MainScene", {
 
     // 背景
     this.bg = Sprite("bg").addChildTo(this);
+    this.bg1 = Sprite("bg").addChildTo(this);
+    this.bg2 = Sprite("bg").addChildTo(this);
     this.bg.origin.set(0, 0); // 左上基準に変更
-
+    this.bg1.origin.set(0,0);
+    this.bg2.origin.set(0,0);
+    this.bg1.x=-SCREEN_WIDTH;
+    this.bg2.x=+SCREEN_WIDTH;
     // プレイヤー
     this.player = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,-300,0,false);
     this.enemy = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,300,0,true);
+    
+    this.player.object.scaleX=-1;
     
     this.player.target=this.enemy;
     this.enemy.target=this.player;
     
     this.hanteilist = [];
     var _hanteis = ["hantei0","hantei1","hantei2","hantei3","hantei4","hantei5","hantei6","hantei7","hantei8","hantei9","hantei10","hantei11","hantei12","hantei13","hantei14","hantei15","hantei16","hantei17","hantei18","hantei19"
-    ,"hantei20","hantei21","hantei22","hantei23"
+    ,"hantei20","hantei21","hantei22","hantei23","hantei24"
     ];
     (_hanteis.length).times(function(i){
-      var tmp = phina.asset.AssetManager.get("json",_hanteis[i]);
+      var tmp = AssetManager.get("json",_hanteis[i]);
       this.hanteilist.push(tmp.data);
     },this);
     this.hanteipool=[];
@@ -773,6 +1126,18 @@ phina.define("MainScene", {
     this.karaburiflag1_e=false;
     this.karaburiflag2_e=false;
     //this.test = phina.asset.AssetManager.get("json","test");
+    //console.log(this.hanteilist[7][6]);
+    this.cancelSE = AssetManager.get("sound","cancel");
+    this.chitSE = AssetManager.get("sound","chit");
+    this.cursorSE = AssetManager.get("sound","cursor");
+    this.enterSE = AssetManager.get("sound","enter");
+    this.fightSE = AssetManager.get("sound","fight");
+    this.jhitSE = AssetManager.get("sound","jhit");
+    this.karaburiSE = AssetManager.get("sound","karaburi");
+    this.sousaiSE = AssetManager.get("sound","sousai");
+    this.readySE = AssetManager.get("sound","ready");
+    this.slashSE = AssetManager.get("sound","slash");
+    this.todomeSE = AssetManager.get("sound","todome");
   },
   
   // 更新
@@ -783,8 +1148,54 @@ phina.define("MainScene", {
       }
       else return false;
     }
+    var bgs = [];
+    bgs.push(this.bg);
+    bgs.push(this.bg1);
+    bgs.push(this.bg2);
+    var gos = [];
+    gos.push(this.player);
+    gos.push(this.enemy);
     this.player.update(app.pointer,app.pointers,app.keyboard);
-    this.enemy.update()
+    this.enemy.update();
+    
+    (gos.length).times(function(i){
+      if(gos[i].object.x<-430){
+        var tmp=0;
+        tmp = -430-gos[i].object.x;
+        gos[i].object.x=-430;
+        (bgs.length).times(function(j){
+          bgs[j].x+=tmp;
+          if(bgs[j].x>SCREEN_WIDTH){
+            var tmp2 = bgs[j].x;
+            bgs[j].x = tmp2 - SCREEN_WIDTH*3;
+          }
+        },this);
+        gos[i].target.object.x+=tmp;
+        if(gos[i].target.object.x>430){
+          gos[i].target.object.x=430;
+        }
+      }
+      if(gos[i].object.x>430){
+        var tmp=0;
+        tmp = 430-gos[i].object.x;
+        gos[i].object.x=430;
+        (bgs.length).times(function(j){
+          bgs[j].x+=tmp;
+          if(bgs[j].x<-SCREEN_WIDTH){
+            var tmp2 = bgs[j].x;
+            bgs[j].x = tmp2 + SCREEN_WIDTH*3;
+          }
+        },this);
+        gos[i].target.object.x+=tmp;
+        if(gos[i].target.object.x<-430){
+          gos[i].target.object.x=-430;
+        }
+      }
+    },this);
+    
+    
+    
+    
     this.hanteipool = [];
     this.player.updatehantei(this.hanteilist,this.hanteipool);
     this.enemy.updatehantei(this.hanteilist,this.hanteipool);
@@ -797,7 +1208,7 @@ phina.define("MainScene", {
           if(this.hanteipool[j].type==="attack_e"){
             if(Collision(this.hanteipool[i],this.hanteipool[j])){
               this.karaburiflag1_p=false;
-              //soundSE1
+              this.sousaiSE.play();
               this.player.sousai=true;
               this.enemy.sousai=true;
             }
@@ -808,14 +1219,15 @@ phina.define("MainScene", {
             if(Collision(this.hanteipool[i],this.hanteipool[j])){
               this.karaburiflag1_p=false;
               if(!this.player.hitflag&&this.enemy.hitpoint>0){
-                if(!this.player.sousai){
+                if(!this.player.sousai&&!this.enemy.demo){
                   this.enemy.hitpoint--;
                   //HPreduce
+                  //console.log(this.enemy.hitpoint);
                 }
-              }
-              //soundSE1
-              this.enemy.damage();
+              this.enemy.damage(this);
               this.player.hitflag=true;
+              }
+              
             }
           }
         },this);
@@ -837,14 +1249,14 @@ phina.define("MainScene", {
             if(Collision(this.hanteipool[i],this.hanteipool[j])){
               this.karaburiflag1_e=false;
               if(!this.enemy.hitflag&&this.player.hitpoint>0){
-                if(!this.enemy.sousai){
+                if(!this.enemy.sousai&&!this.player.demo){
                   this.player.hitpoint--;
                   //HPreduce
                 }
-              }
-              //soundSE1
-              this.player.damage();
+              this.player.damage(this);
               this.enemy.hitflag=true;
+              }
+              
             }
           }
         },this);
@@ -857,7 +1269,7 @@ phina.define("MainScene", {
     &&this.player.status!="counterdamage"){
       this.karaburiflag1_p=false;
       this.karaburiflag2_p=false;
-      //PLAYSE
+      this.karaburiSE.play();
     }
     if(this.karaburiflag2_p&&(this.player.hitflag
     ||this.player.status=="damage"
@@ -874,7 +1286,7 @@ phina.define("MainScene", {
     &&this.enemy.status!="counterdamage"){
       this.karaburiflag1_e=false;
       this.karaburiflag2_e=false;
-      //PLAYSE
+      this.karaburiSE.play();
     }
     if(this.karaburiflag2_e&&(this.enemy.hitflag
     ||this.enemy.status=="damage"
@@ -888,7 +1300,7 @@ phina.define("MainScene", {
       this.karaburiflag2_p=true;
     if(this.karaburiflag1_e)
       this.karaburiflag2_e=true;
-    //console.log(this.player.direction);
+    //console.log(this.enemy.mode,this.enemy.sitcounter,this.enemy.sit,this.enemy.input.down);
   }
 });
 
