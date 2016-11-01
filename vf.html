@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     
-    <title>maki_walkandidol</title>
+    <title>vf</title>
     <meta name="description" content="かつてJava Appletで作成したゲーム
 http://rrfgames.sitemix.jp/vf.html
-をphina.jsに移植してみようとサンプルからフォークして作っています。
-とりあえず歩かせてみました。" />
+をphina.jsに移植してみようとサンプルからフォークして作っています。" />
     
     <style>*, *:before, *:after {
   box-sizing: border-box; 
@@ -38,17 +37,24 @@ phina.globalize();
 // 定数
 var ASSETS = {
   image: {
-    bg: "https://rawgit.com/rrf1050/test/master/haikei.png",
-   maki0: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-0.png',
-    maki1: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-1.png',
-    maki2: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-2.png',
-    maki3: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-3.png',
-    maki4: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-4.png',
-    maki5: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-5.png',
-    maki6: 'https://cdn.rawgit.com/rrf1050/test/master/makiss-6.png',
+    bg: "https://rawgit.com/rrf1050/test/master/graphic/haikei.png",
+   maki0: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-0.png',
+    maki1: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-1.png',
+    maki2: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-2.png',
+    maki3: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-3.png',
+    maki4: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-4.png',
+    maki5: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-5.png',
+    maki6: 'https://rawgit.com/rrf1050/test/master/graphic/makiss-6.png',
+    yukari0: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-0.png',
+    yukari1: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-1.png',
+    yukari2: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-2.png',
+    yukari3: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-3.png',
+    yukari4: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-4.png',
+    yukari5: 'https://rawgit.com/rrf1050/test/master/graphic/yukari-5.png',
   },
 	spritesheet: {
-		'maki_ss': 'https://rawgit.com/rrf1050/test/master/maki.ss',
+		'maki_ss': 'https://rawgit.com/rrf1050/test/master/ss/maki.ss',
+		'yukari_ss': 'https://rawgit.com/rrf1050/test/master/ss/yukari.ss',
 	},
 	json: {
 	  hantei0: 'https://rawgit.com/rrf1050/test/master/hantei/backstep/backstephantei.txt.json',
@@ -1104,7 +1110,7 @@ phina.define("MainScene", {
     this.bg2.x=+SCREEN_WIDTH;
     // プレイヤー
     this.player = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,-300,0,false);
-    this.enemy = GameObject(['maki0','maki1','maki2','maki3','maki4','maki5','maki6'],'maki_ss',this,300,0,true);
+    this.enemy = GameObject(['yukari0','yukari1','yukari2','yukari3','yukari4','yukari5'],'yukari_ss',this,300,0,true);
     
     this.player.object.scaleX=-1;
     
@@ -1316,7 +1322,7 @@ phina.main(function() {
     assets: ASSETS,       // アセット読み込み
   });
 
-  app.enableStats();
+  //app.enableStats();
 
   // 実行
   app.run();
