@@ -9024,7 +9024,7 @@ phina.namespace(function() {
       }
       else {
         // console.warn("not defined stats.");
-        var STATS_URL = 'https://cdnjs.cloudflare.com/ajax/libs/stats.js/r14/Stats.js';
+        var STATS_URL = 'https://rawgit.com/rrf1050/test/master/Stats.js';
         var script = document.createElement('script');
         script.src = STATS_URL;
         document.body.appendChild(script);
