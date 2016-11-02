@@ -9019,6 +9019,7 @@ phina.namespace(function() {
 
     enableStats: function() {
       if (phina.global.Stats) {
+				console.log("check");
         this.stats = new Stats();
         document.body.appendChild(this.stats.domElement);
       }
