@@ -157,7 +157,7 @@ var Stats = function () {
 					memMax = Math.max( memMax, mem );
 
 					memText.textContent = mem + ' MB (' + memMin + '-' + memMax + ')';
-					updateGraph( memGraph, heapSize / heapSizeLimit );
+					updateGraph( memGraph, 1 );
 
 				}
 
