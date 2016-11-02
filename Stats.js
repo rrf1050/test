@@ -3,7 +3,7 @@
  */
 
 var Stats = function () {
-/*
+
 	var now = ( self.performance && self.performance.now ) ? self.performance.now.bind( performance ) : Date.now;
 
 	var startTime = now(), prevTime = startTime;
@@ -174,7 +174,7 @@ var Stats = function () {
 		}
 
 	}
-*/
+
 };
 
 if ( typeof module === 'object' ) {
