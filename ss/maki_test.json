@@ -131,6 +131,84 @@
     "sheetnum": 0
   },
   {
+    "filename": "jrslash05.png",
+    "frame": {
+      "x": 959,
+      "y": 349,
+      "w": 274,
+      "h": 352
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 365,
+      "y": 232,
+      "w": 274,
+      "h": 352
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "jrslash06.png",
+    "frame": {
+      "x": 2409,
+      "y": 349,
+      "w": 264,
+      "h": 364
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 364,
+      "y": 220,
+      "w": 264,
+      "h": 364
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "jrslash07.png",
+    "frame": {
+      "x": 2187,
+      "y": 1096,
+      "w": 252,
+      "h": 382
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 364,
+      "y": 202,
+      "w": 252,
+      "h": 382
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "jrslash08.png",
     "frame": {
       "x": 2145,
@@ -235,3048 +313,6 @@
     "sheetnum": 0
   },
   {
-    "filename": "jrslash14.png",
-    "frame": {
-      "x": 1,
-      "y": 1287,
-      "w": 258,
-      "h": 279
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 315,
-      "y": 231,
-      "w": 258,
-      "h": 279
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "jrslash15.png",
-    "frame": {
-      "x": 1243,
-      "y": 1569,
-      "w": 226,
-      "h": 284
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 369,
-      "y": 172,
-      "w": 226,
-      "h": 284
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all043.png",
-    "frame": {
-      "x": 1647,
-      "y": 1569,
-      "w": 188,
-      "h": 287
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 435,
-      "y": 230,
-      "w": 188,
-      "h": 287
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all044.png",
-    "frame": {
-      "x": 1171,
-      "y": 241,
-      "w": 211,
-      "h": 240
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 431,
-      "y": 279,
-      "w": 211,
-      "h": 240
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all045.png",
-    "frame": {
-      "x": 2394,
-      "y": 1569,
-      "w": 189,
-      "h": 287
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 435,
-      "y": 230,
-      "w": 189,
-      "h": 287
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all049.png",
-    "frame": {
-      "x": 518,
-      "y": 2496,
-      "w": 175,
-      "h": 323
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 442,
-      "y": 176,
-      "w": 175,
-      "h": 323
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all050.png",
-    "frame": {
-      "x": 189,
-      "y": 2174,
-      "w": 183,
-      "h": 311
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 443,
-      "y": 185,
-      "w": 183,
-      "h": 311
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all051.png",
-    "frame": {
-      "x": 1680,
-      "y": 1864,
-      "w": 200,
-      "h": 306
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 433,
-      "y": 194,
-      "w": 200,
-      "h": 306
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all052.png",
-    "frame": {
-      "x": 1436,
-      "y": 1864,
-      "w": 242,
-      "h": 304
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 399,
-      "y": 204,
-      "w": 242,
-      "h": 304
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all053.png",
-    "frame": {
-      "x": 1837,
-      "y": 1569,
-      "w": 260,
-      "h": 287
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 389,
-      "y": 213,
-      "w": 260,
-      "h": 287
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all054.png",
-    "frame": {
-      "x": 443,
-      "y": 1864,
-      "w": 250,
-      "h": 295
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 401,
-      "y": 227,
-      "w": 250,
-      "h": 295
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all055.png",
-    "frame": {
-      "x": 1348,
-      "y": 1287,
-      "w": 216,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 436,
-      "y": 240,
-      "w": 216,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all056.png",
-    "frame": {
-      "x": 1226,
-      "y": 1009,
-      "w": 209,
-      "h": 267
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 445,
-      "y": 254,
-      "w": 209,
-      "h": 267
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all057.png",
-    "frame": {
-      "x": 353,
-      "y": 487,
-      "w": 213,
-      "h": 248
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 443,
-      "y": 268,
-      "w": 213,
-      "h": 248
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all058.png",
-    "frame": {
-      "x": 1653,
-      "y": 2496,
-      "w": 217,
-      "h": 326
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 439,
-      "y": 190,
-      "w": 217,
-      "h": 326
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all061.png",
-    "frame": {
-      "x": 695,
-      "y": 2496,
-      "w": 226,
-      "h": 323
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 431,
-      "y": 176,
-      "w": 226,
-      "h": 323
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all062.png",
-    "frame": {
-      "x": 1174,
-      "y": 2496,
-      "w": 230,
-      "h": 324
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 424,
-      "y": 176,
-      "w": 230,
-      "h": 324
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all063.png",
-    "frame": {
-      "x": 255,
-      "y": 2496,
-      "w": 261,
-      "h": 321
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 389,
-      "y": 179,
-      "w": 261,
-      "h": 321
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all064.png",
-    "frame": {
-      "x": 693,
-      "y": 2174,
-      "w": 281,
-      "h": 316
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 367,
-      "y": 184,
-      "w": 281,
-      "h": 316
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all065.png",
-    "frame": {
-      "x": 2099,
-      "y": 1569,
-      "w": 293,
-      "h": 287
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 350,
-      "y": 213,
-      "w": 293,
-      "h": 287
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all066.png",
-    "frame": {
-      "x": 162,
-      "y": 1864,
-      "w": 279,
-      "h": 295
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 363,
-      "y": 227,
-      "w": 279,
-      "h": 295
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all067.png",
-    "frame": {
-      "x": 715,
-      "y": 1569,
-      "w": 243,
-      "h": 281
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 397,
-      "y": 240,
-      "w": 243,
-      "h": 281
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all068.png",
-    "frame": {
-      "x": 556,
-      "y": 1009,
-      "w": 207,
-      "h": 264
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 431,
-      "y": 254,
-      "w": 207,
-      "h": 264
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all069.png",
-    "frame": {
-      "x": 154,
-      "y": 487,
-      "w": 197,
-      "h": 248
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 438,
-      "y": 268,
-      "w": 197,
-      "h": 248
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all070.png",
-    "frame": {
-      "x": 261,
-      "y": 1287,
-      "w": 194,
-      "h": 279
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 438,
-      "y": 237,
-      "w": 194,
-      "h": 279
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all071.png",
-    "frame": {
-      "x": 1,
-      "y": 2174,
-      "w": 186,
-      "h": 309
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 441,
-      "y": 207,
-      "w": 186,
-      "h": 309
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all075.png",
-    "frame": {
-      "x": 2095,
-      "y": 2496,
-      "w": 242,
-      "h": 328
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 448,
-      "y": 189,
-      "w": 242,
-      "h": 328
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all076.png",
-    "frame": {
-      "x": 923,
-      "y": 2496,
-      "w": 249,
-      "h": 324
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 448,
-      "y": 193,
-      "w": 249,
-      "h": 324
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all077.png",
-    "frame": {
-      "x": 1,
-      "y": 2496,
-      "w": 252,
-      "h": 320
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 448,
-      "y": 197,
-      "w": 252,
-      "h": 320
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all078.png",
-    "frame": {
-      "x": 1163,
-      "y": 2174,
-      "w": 430,
-      "h": 319
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 117,
-      "y": 197,
-      "w": 430,
-      "h": 319
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all079.png",
-    "frame": {
-      "x": 1595,
-      "y": 2174,
-      "w": 401,
-      "h": 319
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 117,
-      "y": 197,
-      "w": 401,
-      "h": 319
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all080.png",
-    "frame": {
-      "x": 2385,
-      "y": 2174,
-      "w": 400,
-      "h": 320
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 106,
-      "y": 197,
-      "w": 400,
-      "h": 320
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all081.png",
-    "frame": {
-      "x": 2506,
-      "y": 2496,
-      "w": 372,
-      "h": 332
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 159,
-      "y": 185,
-      "w": 372,
-      "h": 332
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all086.png",
-    "frame": {
-      "x": 1471,
-      "y": 1569,
-      "w": 174,
-      "h": 287
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 434,
-      "y": 230,
-      "w": 174,
-      "h": 287
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all090.png",
-    "frame": {
-      "x": 976,
-      "y": 2174,
-      "w": 185,
-      "h": 318
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 408,
-      "y": 146,
-      "w": 185,
-      "h": 318
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all091.png",
-    "frame": {
-      "x": 529,
-      "y": 1569,
-      "w": 184,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 184,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all092.png",
-    "frame": {
-      "x": 645,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all093.png",
-    "frame": {
-      "x": 2541,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all094.png",
-    "frame": {
-      "x": 2729,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all095.png",
-    "frame": {
-      "x": 2165,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all096.png",
-    "frame": {
-      "x": 1752,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all097.png",
-    "frame": {
-      "x": 2353,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all098.png",
-    "frame": {
-      "x": 457,
-      "y": 1287,
-      "w": 186,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 186,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all099.png",
-    "frame": {
-      "x": 1566,
-      "y": 1287,
-      "w": 184,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 411,
-      "y": 161,
-      "w": 184,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all100.png",
-    "frame": {
-      "x": 2198,
-      "y": 2174,
-      "w": 185,
-      "h": 319
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 408,
-      "y": 145,
-      "w": 185,
-      "h": 319
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all106.png",
-    "frame": {
-      "x": 1149,
-      "y": 1287,
-      "w": 197,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 358,
-      "y": 161,
-      "w": 197,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all107.png",
-    "frame": {
-      "x": 1940,
-      "y": 1287,
-      "w": 223,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 332,
-      "y": 161,
-      "w": 223,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all108.png",
-    "frame": {
-      "x": 833,
-      "y": 1287,
-      "w": 314,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 241,
-      "y": 161,
-      "w": 314,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all109.png",
-    "frame": {
-      "x": 1,
-      "y": 1569,
-      "w": 314,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 241,
-      "y": 161,
-      "w": 314,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all110.png",
-    "frame": {
-      "x": 317,
-      "y": 1569,
-      "w": 210,
-      "h": 280
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 345,
-      "y": 161,
-      "w": 210,
-      "h": 280
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all111.png",
-    "frame": {
-      "x": 1584,
-      "y": 241,
-      "w": 205,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 433,
-      "y": 279,
-      "w": 205,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all112.png",
-    "frame": {
-      "x": 1384,
-      "y": 241,
-      "w": 198,
-      "h": 241
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 435,
-      "y": 279,
-      "w": 198,
-      "h": 241
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all113.png",
-    "frame": {
-      "x": 2454,
-      "y": 241,
-      "w": 191,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 438,
-      "y": 279,
-      "w": 191,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all114.png",
-    "frame": {
-      "x": 2093,
-      "y": 241,
-      "w": 182,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 442,
-      "y": 279,
-      "w": 182,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all115.png",
-    "frame": {
-      "x": 2277,
-      "y": 241,
-      "w": 175,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 444,
-      "y": 279,
-      "w": 175,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all116.png",
-    "frame": {
-      "x": 2647,
-      "y": 241,
-      "w": 169,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 444,
-      "y": 279,
-      "w": 169,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all118.png",
-    "frame": {
-      "x": 2184,
-      "y": 745,
-      "w": 416,
-      "h": 262
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 157,
-      "y": 279,
-      "w": 416,
-      "h": 262
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all119.png",
-    "frame": {
-      "x": 1766,
-      "y": 745,
-      "w": 416,
-      "h": 262
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 157,
-      "y": 279,
-      "w": 416,
-      "h": 262
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all120.png",
-    "frame": {
-      "x": 1348,
-      "y": 745,
-      "w": 416,
-      "h": 262
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 157,
-      "y": 279,
-      "w": 416,
-      "h": 262
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all121.png",
-    "frame": {
-      "x": 2602,
-      "y": 745,
-      "w": 396,
-      "h": 262
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 177,
-      "y": 262,
-      "w": 396,
-      "h": 262
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all122.png",
-    "frame": {
-      "x": 2220,
-      "y": 1009,
-      "w": 339,
-      "h": 273
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 235,
-      "y": 246,
-      "w": 339,
-      "h": 273
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all123.png",
-    "frame": {
-      "x": 1406,
-      "y": 2496,
-      "w": 245,
-      "h": 325
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 330,
-      "y": 230,
-      "w": 245,
-      "h": 325
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all125.png",
-    "frame": {
-      "x": 1998,
-      "y": 2174,
-      "w": 198,
-      "h": 319
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 199,
-      "w": 198,
-      "h": 319
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all137.png",
-    "frame": {
-      "x": 655,
-      "y": 241,
-      "w": 208,
-      "h": 239
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 441,
-      "y": 280,
-      "w": 208,
-      "h": 239
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all138.png",
-    "frame": {
-      "x": 2292,
-      "y": 1,
-      "w": 207,
-      "h": 237
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 457,
-      "y": 282,
-      "w": 207,
-      "h": 237
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all139.png",
-    "frame": {
-      "x": 2074,
-      "y": 1,
-      "w": 216,
-      "h": 235
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 461,
-      "y": 284,
-      "w": 216,
-      "h": 235
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all140.png",
-    "frame": {
-      "x": 1855,
-      "y": 1,
-      "w": 217,
-      "h": 235
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 461,
-      "y": 284,
-      "w": 217,
-      "h": 235
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all141.png",
-    "frame": {
-      "x": 1636,
-      "y": 1,
-      "w": 217,
-      "h": 235
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 461,
-      "y": 284,
-      "w": 217,
-      "h": 235
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all142.png",
-    "frame": {
-      "x": 2501,
-      "y": 1,
-      "w": 209,
-      "h": 237
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 461,
-      "y": 282,
-      "w": 209,
-      "h": 237
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all143.png",
-    "frame": {
-      "x": 2712,
-      "y": 1,
-      "w": 212,
-      "h": 238
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 448,
-      "y": 281,
-      "w": 212,
-      "h": 238
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all144.png",
-    "frame": {
-      "x": 439,
-      "y": 241,
-      "w": 214,
-      "h": 239
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 438,
-      "y": 280,
-      "w": 214,
-      "h": 239
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all191.png",
-    "frame": {
-      "x": 1864,
-      "y": 1009,
-      "w": 197,
-      "h": 270
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 400,
-      "y": 161,
-      "w": 197,
-      "h": 270
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all192.png",
-    "frame": {
-      "x": 1628,
-      "y": 1009,
-      "w": 234,
-      "h": 269
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 366,
-      "y": 162,
-      "w": 234,
-      "h": 269
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all193.png",
-    "frame": {
-      "x": 944,
-      "y": 1009,
-      "w": 280,
-      "h": 267
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 320,
-      "y": 162,
-      "w": 280,
-      "h": 267
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all194.png",
-    "frame": {
-      "x": 1057,
-      "y": 745,
-      "w": 289,
-      "h": 260
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 313,
-      "y": 163,
-      "w": 289,
-      "h": 260
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all195.png",
-    "frame": {
-      "x": 1,
-      "y": 745,
-      "w": 288,
-      "h": 257
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 315,
-      "y": 164,
-      "w": 288,
-      "h": 257
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all196.png",
-    "frame": {
-      "x": 1163,
-      "y": 487,
-      "w": 301,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 303,
-      "y": 165,
-      "w": 301,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all197.png",
-    "frame": {
-      "x": 2674,
-      "y": 487,
-      "w": 301,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 303,
-      "y": 302,
-      "w": 301,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all198.png",
-    "frame": {
-      "x": 2370,
-      "y": 487,
-      "w": 302,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 305,
-      "y": 315,
-      "w": 302,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all199.png",
-    "frame": {
-      "x": 1466,
-      "y": 487,
-      "w": 301,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 309,
-      "y": 328,
-      "w": 301,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all200.png",
-    "frame": {
-      "x": 568,
-      "y": 487,
-      "w": 300,
-      "h": 255
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 308,
-      "y": 295,
-      "w": 300,
-      "h": 255
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all201.png",
-    "frame": {
-      "x": 291,
-      "y": 745,
-      "w": 299,
-      "h": 257
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 308,
-      "y": 284,
-      "w": 299,
-      "h": 257
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all202.png",
-    "frame": {
-      "x": 1769,
-      "y": 487,
-      "w": 294,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 312,
-      "y": 279,
-      "w": 294,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all203.png",
-    "frame": {
-      "x": 870,
-      "y": 487,
-      "w": 291,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 313,
-      "y": 276,
-      "w": 291,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all204.png",
-    "frame": {
-      "x": 2065,
-      "y": 487,
-      "w": 303,
-      "h": 256
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 300,
-      "y": 277,
-      "w": 303,
-      "h": 256
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all205.png",
-    "frame": {
-      "x": 754,
-      "y": 745,
-      "w": 301,
-      "h": 258
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 301,
-      "y": 279,
-      "w": 301,
-      "h": 258
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all206.png",
-    "frame": {
-      "x": 253,
-      "y": 1009,
-      "w": 301,
-      "h": 264
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 304,
-      "y": 285,
-      "w": 301,
-      "h": 264
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all207.png",
-    "frame": {
-      "x": 1791,
-      "y": 241,
-      "w": 300,
-      "h": 242
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 306,
-      "y": 333,
-      "w": 300,
-      "h": 242
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all208.png",
-    "frame": {
-      "x": 813,
-      "y": 1,
-      "w": 295,
-      "h": 167
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 308,
-      "y": 379,
-      "w": 295,
-      "h": 167
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all209.png",
-    "frame": {
-      "x": 261,
-      "y": 1,
-      "w": 286,
-      "h": 160
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 310,
-      "y": 375,
-      "w": 286,
-      "h": 160
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all210.png",
-    "frame": {
-      "x": 1,
-      "y": 1,
-      "w": 258,
-      "h": 153
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 347,
-      "y": 385,
-      "w": 258,
-      "h": 153
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all211.png",
-    "frame": {
-      "x": 549,
-      "y": 1,
-      "w": 262,
-      "h": 165
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 385,
-      "y": 379,
-      "w": 262,
-      "h": 165
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all212.png",
-    "frame": {
-      "x": 1110,
-      "y": 1,
-      "w": 218,
-      "h": 196
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 391,
-      "y": 326,
-      "w": 218,
-      "h": 196
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all213.png",
-    "frame": {
-      "x": 2063,
-      "y": 1009,
-      "w": 155,
-      "h": 270
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 396,
-      "y": 250,
-      "w": 155,
-      "h": 270
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "maki_all214.png",
-    "frame": {
-      "x": 537,
-      "y": 2174,
-      "w": 154,
-      "h": 314
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 407,
-      "y": 204,
-      "w": 154,
-      "h": 314
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose02.png",
-    "frame": {
-      "x": 2339,
-      "y": 2496,
-      "w": 165,
-      "h": 329
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 410,
-      "y": 187,
-      "w": 165,
-      "h": 329
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose03.png",
-    "frame": {
-      "x": 374,
-      "y": 2174,
-      "w": 161,
-      "h": 312
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 408,
-      "y": 204,
-      "w": 161,
-      "h": 312
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose04.png",
-    "frame": {
-      "x": 1,
-      "y": 1864,
-      "w": 159,
-      "h": 294
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 405,
-      "y": 222,
-      "w": 159,
-      "h": 294
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose05.png",
-    "frame": {
-      "x": 2771,
-      "y": 1009,
-      "w": 160,
-      "h": 276
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 400,
-      "y": 241,
-      "w": 160,
-      "h": 276
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose06.png",
-    "frame": {
-      "x": 592,
-      "y": 745,
-      "w": 160,
-      "h": 258
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 395,
-      "y": 259,
-      "w": 160,
-      "h": 258
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose07.png",
-    "frame": {
-      "x": 865,
-      "y": 241,
-      "w": 151,
-      "h": 239
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 399,
-      "y": 279,
-      "w": 151,
-      "h": 239
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose08.png",
-    "frame": {
-      "x": 1,
-      "y": 487,
-      "w": 151,
-      "h": 245
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 401,
-      "y": 272,
-      "w": 151,
-      "h": 245
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose09.png",
-    "frame": {
-      "x": 1483,
-      "y": 1,
-      "w": 151,
-      "h": 233
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 401,
-      "y": 284,
-      "w": 151,
-      "h": 233
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose10.png",
-    "frame": {
-      "x": 1018,
-      "y": 241,
-      "w": 151,
-      "h": 239
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 398,
-      "y": 278,
-      "w": 151,
-      "h": 239
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose11.png",
-    "frame": {
-      "x": 1330,
-      "y": 1,
-      "w": 151,
-      "h": 224
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 398,
-      "y": 294,
-      "w": 151,
-      "h": 224
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose12.png",
-    "frame": {
-      "x": 2818,
-      "y": 241,
-      "w": 151,
-      "h": 244
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 398,
-      "y": 273,
-      "w": 151,
-      "h": 244
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose13.png",
-    "frame": {
-      "x": 1,
-      "y": 241,
-      "w": 151,
-      "h": 238
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 398,
-      "y": 279,
-      "w": 151,
-      "h": 238
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose35.png",
-    "frame": {
-      "x": 1882,
-      "y": 1864,
-      "w": 261,
-      "h": 306
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 342,
-      "y": 210,
-      "w": 261,
-      "h": 306
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose36.png",
-    "frame": {
-      "x": 1185,
-      "y": 1864,
-      "w": 249,
-      "h": 302
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 348,
-      "y": 214,
-      "w": 249,
-      "h": 302
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose37.png",
-    "frame": {
-      "x": 952,
-      "y": 1864,
-      "w": 231,
-      "h": 297
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 355,
-      "y": 219,
-      "w": 231,
-      "h": 297
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose38.png",
-    "frame": {
-      "x": 2775,
-      "y": 1569,
-      "w": 206,
-      "h": 293
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 363,
-      "y": 223,
-      "w": 206,
-      "h": 293
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose39.png",
-    "frame": {
-      "x": 2585,
-      "y": 1569,
-      "w": 188,
-      "h": 289
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 372,
-      "y": 228,
-      "w": 188,
-      "h": 289
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose40.png",
-    "frame": {
-      "x": 2691,
-      "y": 1864,
-      "w": 203,
-      "h": 308
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 361,
-      "y": 208,
-      "w": 203,
-      "h": 308
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "winpose41.png",
-    "frame": {
-      "x": 1872,
-      "y": 2496,
-      "w": 221,
-      "h": 327
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 353,
-      "y": 189,
-      "w": 221,
-      "h": 327
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 0
-  },
-  {
-    "filename": "jrslash05.png",
-    "frame": {
-      "x": 959,
-      "y": 349,
-      "w": 274,
-      "h": 352
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 365,
-      "y": 232,
-      "w": 274,
-      "h": 352
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "jrslash06.png",
-    "frame": {
-      "x": 2409,
-      "y": 349,
-      "w": 264,
-      "h": 364
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 364,
-      "y": 220,
-      "w": 264,
-      "h": 364
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "jrslash07.png",
-    "frame": {
-      "x": 2187,
-      "y": 1096,
-      "w": 252,
-      "h": 382
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 364,
-      "y": 202,
-      "w": 252,
-      "h": 382
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
     "filename": "jrslash12.png",
     "frame": {
       "x": 676,
@@ -3329,6 +365,58 @@
     "sheetnum": 1
   },
   {
+    "filename": "jrslash14.png",
+    "frame": {
+      "x": 1,
+      "y": 1287,
+      "w": 258,
+      "h": 279
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 315,
+      "y": 231,
+      "w": 258,
+      "h": 279
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "jrslash15.png",
+    "frame": {
+      "x": 1243,
+      "y": 1569,
+      "w": 226,
+      "h": 284
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 369,
+      "y": 172,
+      "w": 226,
+      "h": 284
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
     "filename": "jrslash16.png",
     "frame": {
       "x": 1553,
@@ -3343,2528 +431,6 @@
       "y": 144,
       "w": 191,
       "h": 381
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all042.png",
-    "frame": {
-      "x": 565,
-      "y": 716,
-      "w": 159,
-      "h": 370
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 429,
-      "y": 146,
-      "w": 159,
-      "h": 370
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all046.png",
-    "frame": {
-      "x": 1065,
-      "y": 716,
-      "w": 159,
-      "h": 370
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 429,
-      "y": 146,
-      "w": 159,
-      "h": 370
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all047.png",
-    "frame": {
-      "x": 2691,
-      "y": 1871,
-      "w": 176,
-      "h": 403
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 429,
-      "y": 113,
-      "w": 176,
-      "h": 403
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all048.png",
-    "frame": {
-      "x": 586,
-      "y": 349,
-      "w": 170,
-      "h": 349
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 435,
-      "y": 162,
-      "w": 170,
-      "h": 349
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all059.png",
-    "frame": {
-      "x": 1330,
-      "y": 1,
-      "w": 219,
-      "h": 337
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 437,
-      "y": 179,
-      "w": 219,
-      "h": 337
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all060.png",
-    "frame": {
-      "x": 1106,
-      "y": 1,
-      "w": 222,
-      "h": 336
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 434,
-      "y": 176,
-      "w": 222,
-      "h": 336
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all072.png",
-    "frame": {
-      "x": 923,
-      "y": 1,
-      "w": 181,
-      "h": 336
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 441,
-      "y": 176,
-      "w": 181,
-      "h": 336
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all073.png",
-    "frame": {
-      "x": 385,
-      "y": 716,
-      "w": 178,
-      "h": 367
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 434,
-      "y": 149,
-      "w": 178,
-      "h": 367
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all074.png",
-    "frame": {
-      "x": 2245,
-      "y": 1,
-      "w": 222,
-      "h": 343
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 445,
-      "y": 173,
-      "w": 222,
-      "h": 343
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all082.png",
-    "frame": {
-      "x": 1984,
-      "y": 1,
-      "w": 259,
-      "h": 342
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 293,
-      "y": 174,
-      "w": 259,
-      "h": 342
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all083.png",
-    "frame": {
-      "x": 1235,
-      "y": 349,
-      "w": 226,
-      "h": 353
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 346,
-      "y": 163,
-      "w": 226,
-      "h": 353
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all084.png",
-    "frame": {
-      "x": 1,
-      "y": 1871,
-      "w": 189,
-      "h": 389
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 399,
-      "y": 127,
-      "w": 189,
-      "h": 389
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all085.png",
-    "frame": {
-      "x": 1226,
-      "y": 716,
-      "w": 160,
-      "h": 370
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 428,
-      "y": 146,
-      "w": 160,
-      "h": 370
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all087.png",
-    "frame": {
-      "x": 386,
-      "y": 349,
-      "w": 198,
-      "h": 348
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 417,
-      "y": 172,
-      "w": 198,
-      "h": 348
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all088.png",
-    "frame": {
-      "x": 1648,
-      "y": 1871,
-      "w": 185,
-      "h": 399
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 402,
-      "y": 117,
-      "w": 185,
-      "h": 399
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all089.png",
-    "frame": {
-      "x": 1621,
-      "y": 349,
-      "w": 184,
-      "h": 360
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 405,
-      "y": 132,
-      "w": 184,
-      "h": 360
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all101.png",
-    "frame": {
-      "x": 2222,
-      "y": 349,
-      "w": 185,
-      "h": 363
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 405,
-      "y": 129,
-      "w": 185,
-      "h": 363
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all102.png",
-    "frame": {
-      "x": 1835,
-      "y": 1871,
-      "w": 184,
-      "h": 399
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 402,
-      "y": 113,
-      "w": 184,
-      "h": 399
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all103.png",
-    "frame": {
-      "x": 2441,
-      "y": 1096,
-      "w": 194,
-      "h": 382
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 415,
-      "y": 139,
-      "w": 194,
-      "h": 382
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all104.png",
-    "frame": {
-      "x": 758,
-      "y": 349,
-      "w": 199,
-      "h": 352
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 429,
-      "y": 167,
-      "w": 199,
-      "h": 352
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all105.png",
-    "frame": {
-      "x": 1,
-      "y": 716,
-      "w": 155,
-      "h": 366
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 426,
-      "y": 152,
-      "w": 155,
-      "h": 366
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all117.png",
-    "frame": {
-      "x": 480,
-      "y": 1,
-      "w": 194,
-      "h": 333
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 394,
-      "y": 279,
-      "w": 194,
-      "h": 333
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all124.png",
-    "frame": {
-      "x": 1769,
-      "y": 1,
-      "w": 213,
-      "h": 340
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 363,
-      "y": 214,
-      "w": 213,
-      "h": 340
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all126.png",
-    "frame": {
-      "x": 268,
-      "y": 1,
-      "w": 210,
-      "h": 333
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 397,
-      "y": 184,
-      "w": 210,
-      "h": 333
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all127.png",
-    "frame": {
-      "x": 181,
-      "y": 349,
-      "w": 203,
-      "h": 348
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 412,
-      "y": 169,
-      "w": 203,
-      "h": 348
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all128.png",
-    "frame": {
-      "x": 1991,
-      "y": 716,
-      "w": 162,
-      "h": 374
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 143,
-      "w": 162,
-      "h": 374
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all175.png",
-    "frame": {
-      "x": 1024,
-      "y": 2276,
-      "w": 171,
-      "h": 412
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 421,
-      "y": 104,
-      "w": 171,
-      "h": 412
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all176.png",
-    "frame": {
-      "x": 990,
-      "y": 1481,
-      "w": 172,
-      "h": 385
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 417,
-      "y": 131,
-      "w": 172,
-      "h": 385
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all177.png",
-    "frame": {
-      "x": 1207,
-      "y": 1871,
-      "w": 172,
-      "h": 397
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 415,
-      "y": 119,
-      "w": 172,
-      "h": 397
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all178.png",
-    "frame": {
-      "x": 591,
-      "y": 2276,
-      "w": 178,
-      "h": 410
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 408,
-      "y": 106,
-      "w": 178,
-      "h": 410
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all181.png",
-    "frame": {
-      "x": 182,
-      "y": 2276,
-      "w": 239,
-      "h": 407
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 344,
-      "y": 91,
-      "w": 239,
-      "h": 407
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all182.png",
-    "frame": {
-      "x": 786,
-      "y": 1871,
-      "w": 249,
-      "h": 392
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 334,
-      "y": 92,
-      "w": 249,
-      "h": 392
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all183.png",
-    "frame": {
-      "x": 1332,
-      "y": 1481,
-      "w": 256,
-      "h": 386
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 327,
-      "y": 92,
-      "w": 256,
-      "h": 386
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all184.png",
-    "frame": {
-      "x": 2675,
-      "y": 349,
-      "w": 245,
-      "h": 365
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 334,
-      "y": 91,
-      "w": 245,
-      "h": 365
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all185.png",
-    "frame": {
-      "x": 158,
-      "y": 716,
-      "w": 225,
-      "h": 367
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 351,
-      "y": 93,
-      "w": 225,
-      "h": 367
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all186.png",
-    "frame": {
-      "x": 1590,
-      "y": 1481,
-      "w": 195,
-      "h": 386
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 383,
-      "y": 93,
-      "w": 195,
-      "h": 386
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all187.png",
-    "frame": {
-      "x": 1,
-      "y": 2276,
-      "w": 179,
-      "h": 403
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 403,
-      "y": 94,
-      "w": 179,
-      "h": 403
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all188.png",
-    "frame": {
-      "x": 1197,
-      "y": 2276,
-      "w": 170,
-      "h": 413
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 415,
-      "y": 104,
-      "w": 170,
-      "h": 413
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all215.png",
-    "frame": {
-      "x": 1463,
-      "y": 349,
-      "w": 156,
-      "h": 357
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 414,
-      "y": 160,
-      "w": 156,
-      "h": 357
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all216.png",
-    "frame": {
-      "x": 2021,
-      "y": 1871,
-      "w": 160,
-      "h": 399
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 118,
-      "w": 160,
-      "h": 399
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all218.png",
-    "frame": {
-      "x": 1536,
-      "y": 2276,
-      "w": 168,
-      "h": 415
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 421,
-      "y": 101,
-      "w": 168,
-      "h": 415
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all219.png",
-    "frame": {
-      "x": 2520,
-      "y": 1871,
-      "w": 169,
-      "h": 402
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 114,
-      "w": 169,
-      "h": 402
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all220.png",
-    "frame": {
-      "x": 1037,
-      "y": 1871,
-      "w": 168,
-      "h": 392
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 124,
-      "w": 168,
-      "h": 392
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all221.png",
-    "frame": {
-      "x": 895,
-      "y": 716,
-      "w": 168,
-      "h": 370
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 147,
-      "w": 168,
-      "h": 370
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all222.png",
-    "frame": {
-      "x": 2338,
-      "y": 1481,
-      "w": 168,
-      "h": 387
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 129,
-      "w": 168,
-      "h": 387
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all223.png",
-    "frame": {
-      "x": 1557,
-      "y": 716,
-      "w": 168,
-      "h": 372
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 145,
-      "w": 168,
-      "h": 372
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all224.png",
-    "frame": {
-      "x": 2155,
-      "y": 716,
-      "w": 167,
-      "h": 374
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 143,
-      "w": 167,
-      "h": 374
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all225.png",
-    "frame": {
-      "x": 2547,
-      "y": 716,
-      "w": 167,
-      "h": 376
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 141,
-      "w": 167,
-      "h": 376
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all226.png",
-    "frame": {
-      "x": 1004,
-      "y": 1096,
-      "w": 167,
-      "h": 379
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 138,
-      "w": 167,
-      "h": 379
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all227.png",
-    "frame": {
-      "x": 1,
-      "y": 1481,
-      "w": 167,
-      "h": 383
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 134,
-      "w": 167,
-      "h": 383
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all228.png",
-    "frame": {
-      "x": 607,
-      "y": 1481,
-      "w": 168,
-      "h": 384
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 132,
-      "w": 168,
-      "h": 384
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all229.png",
-    "frame": {
-      "x": 2001,
-      "y": 1481,
-      "w": 167,
-      "h": 386
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 130,
-      "w": 167,
-      "h": 386
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all230.png",
-    "frame": {
-      "x": 2725,
-      "y": 1481,
-      "w": 167,
-      "h": 388
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 128,
-      "w": 167,
-      "h": 388
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all231.png",
-    "frame": {
-      "x": 618,
-      "y": 1871,
-      "w": 166,
-      "h": 392
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 124,
-      "w": 166,
-      "h": 392
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all232.png",
-    "frame": {
-      "x": 726,
-      "y": 716,
-      "w": 167,
-      "h": 370
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 147,
-      "w": 167,
-      "h": 370
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all233.png",
-    "frame": {
-      "x": 2170,
-      "y": 1481,
-      "w": 166,
-      "h": 387
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 129,
-      "w": 166,
-      "h": 387
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all234.png",
-    "frame": {
-      "x": 1388,
-      "y": 716,
-      "w": 167,
-      "h": 372
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 145,
-      "w": 167,
-      "h": 372
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all235.png",
-    "frame": {
-      "x": 1384,
-      "y": 1096,
-      "w": 167,
-      "h": 380
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 137,
-      "w": 167,
-      "h": 380
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all236.png",
-    "frame": {
-      "x": 1164,
-      "y": 1481,
-      "w": 166,
-      "h": 386
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 417,
-      "y": 130,
-      "w": 166,
-      "h": 386
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all237.png",
-    "frame": {
-      "x": 450,
-      "y": 1871,
-      "w": 166,
-      "h": 392
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 417,
-      "y": 124,
-      "w": 166,
-      "h": 392
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all238.png",
-    "frame": {
-      "x": 2352,
-      "y": 1871,
-      "w": 166,
-      "h": 401
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 416,
-      "y": 115,
-      "w": 166,
-      "h": 401
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all239.png",
-    "frame": {
-      "x": 423,
-      "y": 2276,
-      "w": 166,
-      "h": 408
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 415,
-      "y": 108,
-      "w": 166,
-      "h": 408
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all240.png",
-    "frame": {
-      "x": 1369,
-      "y": 2276,
-      "w": 165,
-      "h": 413
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 417,
-      "y": 103,
-      "w": 165,
-      "h": 413
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "maki_all241.png",
-    "frame": {
-      "x": 1706,
-      "y": 2276,
-      "w": 165,
-      "h": 417
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 418,
-      "y": 99,
-      "w": 165,
-      "h": 417
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose00.png",
-    "frame": {
-      "x": 1807,
-      "y": 349,
-      "w": 174,
-      "h": 361
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 419,
-      "y": 155,
-      "w": 174,
-      "h": 361
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose01.png",
-    "frame": {
-      "x": 2704,
-      "y": 1,
-      "w": 169,
-      "h": 346
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 415,
-      "y": 170,
-      "w": 169,
-      "h": 346
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose14.png",
-    "frame": {
-      "x": 1,
-      "y": 349,
-      "w": 178,
-      "h": 347
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 382,
-      "y": 170,
-      "w": 178,
-      "h": 347
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose15.png",
-    "frame": {
-      "x": 2324,
-      "y": 716,
-      "w": 221,
-      "h": 375
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 360,
-      "y": 131,
-      "w": 221,
-      "h": 375
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose16.png",
-    "frame": {
-      "x": 192,
-      "y": 1871,
-      "w": 256,
-      "h": 390
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 340,
-      "y": 106,
-      "w": 256,
-      "h": 390
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose17.png",
-    "frame": {
-      "x": 1381,
-      "y": 1871,
-      "w": 265,
-      "h": 398
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 332,
-      "y": 92,
-      "w": 265,
-      "h": 398
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose20.png",
-    "frame": {
-      "x": 2233,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose21.png",
-    "frame": {
-      "x": 2773,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose23.png",
-    "frame": {
-      "x": 1873,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose24.png",
-    "frame": {
-      "x": 2053,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose26.png",
-    "frame": {
-      "x": 2593,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose27.png",
-    "frame": {
-      "x": 2413,
-      "y": 2276,
-      "w": 178,
-      "h": 418
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 65,
-      "w": 178,
-      "h": 418
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose32.png",
-    "frame": {
-      "x": 771,
-      "y": 2276,
-      "w": 251,
-      "h": 411
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 343,
-      "y": 105,
-      "w": 251,
-      "h": 411
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose33.png",
-    "frame": {
-      "x": 1727,
-      "y": 716,
-      "w": 262,
-      "h": 373
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 339,
-      "y": 144,
-      "w": 262,
-      "h": 373
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose34.png",
-    "frame": {
-      "x": 1,
-      "y": 1,
-      "w": 265,
-      "h": 332
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 339,
-      "y": 184,
-      "w": 265,
-      "h": 332
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose42.png",
-    "frame": {
-      "x": 2469,
-      "y": 1,
-      "w": 233,
-      "h": 344
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 348,
-      "y": 172,
-      "w": 233,
-      "h": 344
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose43.png",
-    "frame": {
-      "x": 1983,
-      "y": 349,
-      "w": 237,
-      "h": 361
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 348,
-      "y": 155,
-      "w": 237,
-      "h": 361
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose44.png",
-    "frame": {
-      "x": 1,
-      "y": 1096,
-      "w": 237,
-      "h": 378
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 350,
-      "y": 139,
-      "w": 237,
-      "h": 378
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose45.png",
-    "frame": {
-      "x": 1957,
-      "y": 1096,
-      "w": 228,
-      "h": 381
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 360,
-      "y": 136,
-      "w": 228,
-      "h": 381
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose46.png",
-    "frame": {
-      "x": 170,
-      "y": 1481,
-      "w": 222,
-      "h": 383
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 367,
-      "y": 133,
-      "w": 222,
-      "h": 383
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose47.png",
-    "frame": {
-      "x": 2508,
-      "y": 1481,
-      "w": 215,
-      "h": 387
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 375,
-      "y": 129,
-      "w": 215,
-      "h": 387
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose48.png",
-    "frame": {
-      "x": 1787,
-      "y": 1481,
-      "w": 212,
-      "h": 386
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 378,
-      "y": 130,
-      "w": 212,
-      "h": 386
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose49.png",
-    "frame": {
-      "x": 777,
-      "y": 1481,
-      "w": 211,
-      "h": 384
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 379,
-      "y": 132,
-      "w": 211,
-      "h": 384
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose50.png",
-    "frame": {
-      "x": 394,
-      "y": 1481,
-      "w": 211,
-      "h": 383
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 380,
-      "y": 133,
-      "w": 211,
-      "h": 383
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose51.png",
-    "frame": {
-      "x": 2637,
-      "y": 1096,
-      "w": 210,
-      "h": 383
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 382,
-      "y": 134,
-      "w": 210,
-      "h": 383
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose52.png",
-    "frame": {
-      "x": 1746,
-      "y": 1096,
-      "w": 209,
-      "h": 381
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 384,
-      "y": 136,
-      "w": 209,
-      "h": 381
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose53.png",
-    "frame": {
-      "x": 1173,
-      "y": 1096,
-      "w": 209,
-      "h": 380
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 384,
-      "y": 138,
-      "w": 209,
-      "h": 380
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "winpose54.png",
-    "frame": {
-      "x": 793,
-      "y": 1096,
-      "w": 209,
-      "h": 379
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 385,
-      "y": 139,
-      "w": 209,
-      "h": 379
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "wintoidol0.png",
-    "frame": {
-      "x": 593,
-      "y": 1096,
-      "w": 198,
-      "h": 378
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 383,
-      "y": 139,
-      "w": 198,
-      "h": 378
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "wintoidol1.png",
-    "frame": {
-      "x": 2716,
-      "y": 716,
-      "w": 183,
-      "h": 378
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 384,
-      "y": 139,
-      "w": 183,
-      "h": 378
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "wintoidol2.png",
-    "frame": {
-      "x": 415,
-      "y": 1096,
-      "w": 176,
-      "h": 378
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 389,
-      "y": 139,
-      "w": 176,
-      "h": 378
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "wintoidol3.png",
-    "frame": {
-      "x": 240,
-      "y": 1096,
-      "w": 173,
-      "h": 378
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 396,
-      "y": 139,
-      "w": 173,
-      "h": 378
-    },
-    "sourceSize": {
-      "w": 960,
-      "h": 640
-    },
-    "pivot": {
-      "x": 0.5,
-      "y": 0.5
-    },
-    "sheetnum": 1
-  },
-  {
-    "filename": "wintoidol4.png",
-    "frame": {
-      "x": 2183,
-      "y": 1871,
-      "w": 167,
-      "h": 400
-    },
-    "rotated": false,
-    "trimmed": true,
-    "spriteSourceSize": {
-      "x": 405,
-      "y": 117,
-      "w": 167,
-      "h": 400
     },
     "sourceSize": {
       "w": 960,
@@ -6995,6 +1561,2268 @@
     "sheetnum": 2
   },
   {
+    "filename": "maki_all042.png",
+    "frame": {
+      "x": 565,
+      "y": 716,
+      "w": 159,
+      "h": 370
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 429,
+      "y": 146,
+      "w": 159,
+      "h": 370
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all043.png",
+    "frame": {
+      "x": 1647,
+      "y": 1569,
+      "w": 188,
+      "h": 287
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 435,
+      "y": 230,
+      "w": 188,
+      "h": 287
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all044.png",
+    "frame": {
+      "x": 1171,
+      "y": 241,
+      "w": 211,
+      "h": 240
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 431,
+      "y": 279,
+      "w": 211,
+      "h": 240
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all045.png",
+    "frame": {
+      "x": 2394,
+      "y": 1569,
+      "w": 189,
+      "h": 287
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 435,
+      "y": 230,
+      "w": 189,
+      "h": 287
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all046.png",
+    "frame": {
+      "x": 1065,
+      "y": 716,
+      "w": 159,
+      "h": 370
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 429,
+      "y": 146,
+      "w": 159,
+      "h": 370
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all047.png",
+    "frame": {
+      "x": 2691,
+      "y": 1871,
+      "w": 176,
+      "h": 403
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 429,
+      "y": 113,
+      "w": 176,
+      "h": 403
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all048.png",
+    "frame": {
+      "x": 586,
+      "y": 349,
+      "w": 170,
+      "h": 349
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 435,
+      "y": 162,
+      "w": 170,
+      "h": 349
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all049.png",
+    "frame": {
+      "x": 518,
+      "y": 2496,
+      "w": 175,
+      "h": 323
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 442,
+      "y": 176,
+      "w": 175,
+      "h": 323
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all050.png",
+    "frame": {
+      "x": 189,
+      "y": 2174,
+      "w": 183,
+      "h": 311
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 443,
+      "y": 185,
+      "w": 183,
+      "h": 311
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all051.png",
+    "frame": {
+      "x": 1680,
+      "y": 1864,
+      "w": 200,
+      "h": 306
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 433,
+      "y": 194,
+      "w": 200,
+      "h": 306
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all052.png",
+    "frame": {
+      "x": 1436,
+      "y": 1864,
+      "w": 242,
+      "h": 304
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 399,
+      "y": 204,
+      "w": 242,
+      "h": 304
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all053.png",
+    "frame": {
+      "x": 1837,
+      "y": 1569,
+      "w": 260,
+      "h": 287
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 389,
+      "y": 213,
+      "w": 260,
+      "h": 287
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all054.png",
+    "frame": {
+      "x": 443,
+      "y": 1864,
+      "w": 250,
+      "h": 295
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 401,
+      "y": 227,
+      "w": 250,
+      "h": 295
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all055.png",
+    "frame": {
+      "x": 1348,
+      "y": 1287,
+      "w": 216,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 436,
+      "y": 240,
+      "w": 216,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all056.png",
+    "frame": {
+      "x": 1226,
+      "y": 1009,
+      "w": 209,
+      "h": 267
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 445,
+      "y": 254,
+      "w": 209,
+      "h": 267
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all057.png",
+    "frame": {
+      "x": 353,
+      "y": 487,
+      "w": 213,
+      "h": 248
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 443,
+      "y": 268,
+      "w": 213,
+      "h": 248
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all058.png",
+    "frame": {
+      "x": 1653,
+      "y": 2496,
+      "w": 217,
+      "h": 326
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 439,
+      "y": 190,
+      "w": 217,
+      "h": 326
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all059.png",
+    "frame": {
+      "x": 1330,
+      "y": 1,
+      "w": 219,
+      "h": 337
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 437,
+      "y": 179,
+      "w": 219,
+      "h": 337
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all060.png",
+    "frame": {
+      "x": 1106,
+      "y": 1,
+      "w": 222,
+      "h": 336
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 434,
+      "y": 176,
+      "w": 222,
+      "h": 336
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all061.png",
+    "frame": {
+      "x": 695,
+      "y": 2496,
+      "w": 226,
+      "h": 323
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 431,
+      "y": 176,
+      "w": 226,
+      "h": 323
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all062.png",
+    "frame": {
+      "x": 1174,
+      "y": 2496,
+      "w": 230,
+      "h": 324
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 424,
+      "y": 176,
+      "w": 230,
+      "h": 324
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all063.png",
+    "frame": {
+      "x": 255,
+      "y": 2496,
+      "w": 261,
+      "h": 321
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 389,
+      "y": 179,
+      "w": 261,
+      "h": 321
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all064.png",
+    "frame": {
+      "x": 693,
+      "y": 2174,
+      "w": 281,
+      "h": 316
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 367,
+      "y": 184,
+      "w": 281,
+      "h": 316
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all065.png",
+    "frame": {
+      "x": 2099,
+      "y": 1569,
+      "w": 293,
+      "h": 287
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 350,
+      "y": 213,
+      "w": 293,
+      "h": 287
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all066.png",
+    "frame": {
+      "x": 162,
+      "y": 1864,
+      "w": 279,
+      "h": 295
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 363,
+      "y": 227,
+      "w": 279,
+      "h": 295
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all067.png",
+    "frame": {
+      "x": 715,
+      "y": 1569,
+      "w": 243,
+      "h": 281
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 397,
+      "y": 240,
+      "w": 243,
+      "h": 281
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all068.png",
+    "frame": {
+      "x": 556,
+      "y": 1009,
+      "w": 207,
+      "h": 264
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 431,
+      "y": 254,
+      "w": 207,
+      "h": 264
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all069.png",
+    "frame": {
+      "x": 154,
+      "y": 487,
+      "w": 197,
+      "h": 248
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 438,
+      "y": 268,
+      "w": 197,
+      "h": 248
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all070.png",
+    "frame": {
+      "x": 261,
+      "y": 1287,
+      "w": 194,
+      "h": 279
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 438,
+      "y": 237,
+      "w": 194,
+      "h": 279
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all071.png",
+    "frame": {
+      "x": 1,
+      "y": 2174,
+      "w": 186,
+      "h": 309
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 441,
+      "y": 207,
+      "w": 186,
+      "h": 309
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all072.png",
+    "frame": {
+      "x": 923,
+      "y": 1,
+      "w": 181,
+      "h": 336
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 441,
+      "y": 176,
+      "w": 181,
+      "h": 336
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all073.png",
+    "frame": {
+      "x": 385,
+      "y": 716,
+      "w": 178,
+      "h": 367
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 434,
+      "y": 149,
+      "w": 178,
+      "h": 367
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all074.png",
+    "frame": {
+      "x": 2245,
+      "y": 1,
+      "w": 222,
+      "h": 343
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 445,
+      "y": 173,
+      "w": 222,
+      "h": 343
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all075.png",
+    "frame": {
+      "x": 2095,
+      "y": 2496,
+      "w": 242,
+      "h": 328
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 448,
+      "y": 189,
+      "w": 242,
+      "h": 328
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all076.png",
+    "frame": {
+      "x": 923,
+      "y": 2496,
+      "w": 249,
+      "h": 324
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 448,
+      "y": 193,
+      "w": 249,
+      "h": 324
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all077.png",
+    "frame": {
+      "x": 1,
+      "y": 2496,
+      "w": 252,
+      "h": 320
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 448,
+      "y": 197,
+      "w": 252,
+      "h": 320
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all078.png",
+    "frame": {
+      "x": 1163,
+      "y": 2174,
+      "w": 430,
+      "h": 319
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 117,
+      "y": 197,
+      "w": 430,
+      "h": 319
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all079.png",
+    "frame": {
+      "x": 1595,
+      "y": 2174,
+      "w": 401,
+      "h": 319
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 117,
+      "y": 197,
+      "w": 401,
+      "h": 319
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all080.png",
+    "frame": {
+      "x": 2385,
+      "y": 2174,
+      "w": 400,
+      "h": 320
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 106,
+      "y": 197,
+      "w": 400,
+      "h": 320
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all081.png",
+    "frame": {
+      "x": 2506,
+      "y": 2496,
+      "w": 372,
+      "h": 332
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 159,
+      "y": 185,
+      "w": 372,
+      "h": 332
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all082.png",
+    "frame": {
+      "x": 1984,
+      "y": 1,
+      "w": 259,
+      "h": 342
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 293,
+      "y": 174,
+      "w": 259,
+      "h": 342
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all083.png",
+    "frame": {
+      "x": 1235,
+      "y": 349,
+      "w": 226,
+      "h": 353
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 346,
+      "y": 163,
+      "w": 226,
+      "h": 353
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all084.png",
+    "frame": {
+      "x": 1,
+      "y": 1871,
+      "w": 189,
+      "h": 389
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 399,
+      "y": 127,
+      "w": 189,
+      "h": 389
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all085.png",
+    "frame": {
+      "x": 1226,
+      "y": 716,
+      "w": 160,
+      "h": 370
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 428,
+      "y": 146,
+      "w": 160,
+      "h": 370
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all086.png",
+    "frame": {
+      "x": 1471,
+      "y": 1569,
+      "w": 174,
+      "h": 287
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 434,
+      "y": 230,
+      "w": 174,
+      "h": 287
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all087.png",
+    "frame": {
+      "x": 386,
+      "y": 349,
+      "w": 198,
+      "h": 348
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 417,
+      "y": 172,
+      "w": 198,
+      "h": 348
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all088.png",
+    "frame": {
+      "x": 1648,
+      "y": 1871,
+      "w": 185,
+      "h": 399
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 402,
+      "y": 117,
+      "w": 185,
+      "h": 399
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all089.png",
+    "frame": {
+      "x": 1621,
+      "y": 349,
+      "w": 184,
+      "h": 360
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 405,
+      "y": 132,
+      "w": 184,
+      "h": 360
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all090.png",
+    "frame": {
+      "x": 976,
+      "y": 2174,
+      "w": 185,
+      "h": 318
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 408,
+      "y": 146,
+      "w": 185,
+      "h": 318
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all091.png",
+    "frame": {
+      "x": 529,
+      "y": 1569,
+      "w": 184,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 184,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all092.png",
+    "frame": {
+      "x": 645,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all093.png",
+    "frame": {
+      "x": 2541,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all094.png",
+    "frame": {
+      "x": 2729,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all095.png",
+    "frame": {
+      "x": 2165,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all096.png",
+    "frame": {
+      "x": 1752,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all097.png",
+    "frame": {
+      "x": 2353,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all098.png",
+    "frame": {
+      "x": 457,
+      "y": 1287,
+      "w": 186,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 186,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all099.png",
+    "frame": {
+      "x": 1566,
+      "y": 1287,
+      "w": 184,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 411,
+      "y": 161,
+      "w": 184,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all100.png",
+    "frame": {
+      "x": 2198,
+      "y": 2174,
+      "w": 185,
+      "h": 319
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 408,
+      "y": 145,
+      "w": 185,
+      "h": 319
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all101.png",
+    "frame": {
+      "x": 2222,
+      "y": 349,
+      "w": 185,
+      "h": 363
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 405,
+      "y": 129,
+      "w": 185,
+      "h": 363
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all102.png",
+    "frame": {
+      "x": 1835,
+      "y": 1871,
+      "w": 184,
+      "h": 399
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 402,
+      "y": 113,
+      "w": 184,
+      "h": 399
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all103.png",
+    "frame": {
+      "x": 2441,
+      "y": 1096,
+      "w": 194,
+      "h": 382
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 415,
+      "y": 139,
+      "w": 194,
+      "h": 382
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all104.png",
+    "frame": {
+      "x": 758,
+      "y": 349,
+      "w": 199,
+      "h": 352
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 429,
+      "y": 167,
+      "w": 199,
+      "h": 352
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all105.png",
+    "frame": {
+      "x": 1,
+      "y": 716,
+      "w": 155,
+      "h": 366
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 426,
+      "y": 152,
+      "w": 155,
+      "h": 366
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all106.png",
+    "frame": {
+      "x": 1149,
+      "y": 1287,
+      "w": 197,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 358,
+      "y": 161,
+      "w": 197,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all107.png",
+    "frame": {
+      "x": 1940,
+      "y": 1287,
+      "w": 223,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 332,
+      "y": 161,
+      "w": 223,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all108.png",
+    "frame": {
+      "x": 833,
+      "y": 1287,
+      "w": 314,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 241,
+      "y": 161,
+      "w": 314,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all109.png",
+    "frame": {
+      "x": 1,
+      "y": 1569,
+      "w": 314,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 241,
+      "y": 161,
+      "w": 314,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all110.png",
+    "frame": {
+      "x": 317,
+      "y": 1569,
+      "w": 210,
+      "h": 280
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 345,
+      "y": 161,
+      "w": 210,
+      "h": 280
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all111.png",
+    "frame": {
+      "x": 1584,
+      "y": 241,
+      "w": 205,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 433,
+      "y": 279,
+      "w": 205,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all112.png",
+    "frame": {
+      "x": 1384,
+      "y": 241,
+      "w": 198,
+      "h": 241
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 435,
+      "y": 279,
+      "w": 198,
+      "h": 241
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all113.png",
+    "frame": {
+      "x": 2454,
+      "y": 241,
+      "w": 191,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 438,
+      "y": 279,
+      "w": 191,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all114.png",
+    "frame": {
+      "x": 2093,
+      "y": 241,
+      "w": 182,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 442,
+      "y": 279,
+      "w": 182,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all115.png",
+    "frame": {
+      "x": 2277,
+      "y": 241,
+      "w": 175,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 444,
+      "y": 279,
+      "w": 175,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all116.png",
+    "frame": {
+      "x": 2647,
+      "y": 241,
+      "w": 169,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 444,
+      "y": 279,
+      "w": 169,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all117.png",
+    "frame": {
+      "x": 480,
+      "y": 1,
+      "w": 194,
+      "h": 333
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 394,
+      "y": 279,
+      "w": 194,
+      "h": 333
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all118.png",
+    "frame": {
+      "x": 2184,
+      "y": 745,
+      "w": 416,
+      "h": 262
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 157,
+      "y": 279,
+      "w": 416,
+      "h": 262
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all119.png",
+    "frame": {
+      "x": 1766,
+      "y": 745,
+      "w": 416,
+      "h": 262
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 157,
+      "y": 279,
+      "w": 416,
+      "h": 262
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all120.png",
+    "frame": {
+      "x": 1348,
+      "y": 745,
+      "w": 416,
+      "h": 262
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 157,
+      "y": 279,
+      "w": 416,
+      "h": 262
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all121.png",
+    "frame": {
+      "x": 2602,
+      "y": 745,
+      "w": 396,
+      "h": 262
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 177,
+      "y": 262,
+      "w": 396,
+      "h": 262
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all122.png",
+    "frame": {
+      "x": 2220,
+      "y": 1009,
+      "w": 339,
+      "h": 273
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 235,
+      "y": 246,
+      "w": 339,
+      "h": 273
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all123.png",
+    "frame": {
+      "x": 1406,
+      "y": 2496,
+      "w": 245,
+      "h": 325
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 330,
+      "y": 230,
+      "w": 245,
+      "h": 325
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all124.png",
+    "frame": {
+      "x": 1769,
+      "y": 1,
+      "w": 213,
+      "h": 340
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 363,
+      "y": 214,
+      "w": 213,
+      "h": 340
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all125.png",
+    "frame": {
+      "x": 1998,
+      "y": 2174,
+      "w": 198,
+      "h": 319
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 199,
+      "w": 198,
+      "h": 319
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all126.png",
+    "frame": {
+      "x": 268,
+      "y": 1,
+      "w": 210,
+      "h": 333
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 397,
+      "y": 184,
+      "w": 210,
+      "h": 333
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all127.png",
+    "frame": {
+      "x": 181,
+      "y": 349,
+      "w": 203,
+      "h": 348
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 412,
+      "y": 169,
+      "w": 203,
+      "h": 348
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all128.png",
+    "frame": {
+      "x": 1991,
+      "y": 716,
+      "w": 162,
+      "h": 374
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 143,
+      "w": 162,
+      "h": 374
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "maki_all129.png",
     "frame": {
       "x": 174,
@@ -7201,6 +4029,214 @@
       "y": 0.5
     },
     "sheetnum": 2
+  },
+  {
+    "filename": "maki_all137.png",
+    "frame": {
+      "x": 655,
+      "y": 241,
+      "w": 208,
+      "h": 239
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 441,
+      "y": 280,
+      "w": 208,
+      "h": 239
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all138.png",
+    "frame": {
+      "x": 2292,
+      "y": 1,
+      "w": 207,
+      "h": 237
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 457,
+      "y": 282,
+      "w": 207,
+      "h": 237
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all139.png",
+    "frame": {
+      "x": 2074,
+      "y": 1,
+      "w": 216,
+      "h": 235
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 461,
+      "y": 284,
+      "w": 216,
+      "h": 235
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all140.png",
+    "frame": {
+      "x": 1855,
+      "y": 1,
+      "w": 217,
+      "h": 235
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 461,
+      "y": 284,
+      "w": 217,
+      "h": 235
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all141.png",
+    "frame": {
+      "x": 1636,
+      "y": 1,
+      "w": 217,
+      "h": 235
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 461,
+      "y": 284,
+      "w": 217,
+      "h": 235
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all142.png",
+    "frame": {
+      "x": 2501,
+      "y": 1,
+      "w": 209,
+      "h": 237
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 461,
+      "y": 282,
+      "w": 209,
+      "h": 237
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all143.png",
+    "frame": {
+      "x": 2712,
+      "y": 1,
+      "w": 212,
+      "h": 238
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 448,
+      "y": 281,
+      "w": 212,
+      "h": 238
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all144.png",
+    "frame": {
+      "x": 439,
+      "y": 241,
+      "w": 214,
+      "h": 239
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 438,
+      "y": 280,
+      "w": 214,
+      "h": 239
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
   },
   {
     "filename": "maki_all145.png",
@@ -7983,6 +5019,110 @@
     "sheetnum": 2
   },
   {
+    "filename": "maki_all175.png",
+    "frame": {
+      "x": 1024,
+      "y": 2276,
+      "w": 171,
+      "h": 412
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 421,
+      "y": 104,
+      "w": 171,
+      "h": 412
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all176.png",
+    "frame": {
+      "x": 990,
+      "y": 1481,
+      "w": 172,
+      "h": 385
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 417,
+      "y": 131,
+      "w": 172,
+      "h": 385
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all177.png",
+    "frame": {
+      "x": 1207,
+      "y": 1871,
+      "w": 172,
+      "h": 397
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 415,
+      "y": 119,
+      "w": 172,
+      "h": 397
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all178.png",
+    "frame": {
+      "x": 591,
+      "y": 2276,
+      "w": 178,
+      "h": 410
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 408,
+      "y": 106,
+      "w": 178,
+      "h": 410
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "maki_all179.png",
     "frame": {
       "x": 1312,
@@ -8033,6 +5173,214 @@
       "y": 0.5
     },
     "sheetnum": 2
+  },
+  {
+    "filename": "maki_all181.png",
+    "frame": {
+      "x": 182,
+      "y": 2276,
+      "w": 239,
+      "h": 407
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 344,
+      "y": 91,
+      "w": 239,
+      "h": 407
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all182.png",
+    "frame": {
+      "x": 786,
+      "y": 1871,
+      "w": 249,
+      "h": 392
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 334,
+      "y": 92,
+      "w": 249,
+      "h": 392
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all183.png",
+    "frame": {
+      "x": 1332,
+      "y": 1481,
+      "w": 256,
+      "h": 386
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 327,
+      "y": 92,
+      "w": 256,
+      "h": 386
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all184.png",
+    "frame": {
+      "x": 2675,
+      "y": 349,
+      "w": 245,
+      "h": 365
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 334,
+      "y": 91,
+      "w": 245,
+      "h": 365
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all185.png",
+    "frame": {
+      "x": 158,
+      "y": 716,
+      "w": 225,
+      "h": 367
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 351,
+      "y": 93,
+      "w": 225,
+      "h": 367
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all186.png",
+    "frame": {
+      "x": 1590,
+      "y": 1481,
+      "w": 195,
+      "h": 386
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 383,
+      "y": 93,
+      "w": 195,
+      "h": 386
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all187.png",
+    "frame": {
+      "x": 1,
+      "y": 2276,
+      "w": 179,
+      "h": 403
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 403,
+      "y": 94,
+      "w": 179,
+      "h": 403
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all188.png",
+    "frame": {
+      "x": 1197,
+      "y": 2276,
+      "w": 170,
+      "h": 413
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 415,
+      "y": 104,
+      "w": 170,
+      "h": 413
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
   },
   {
     "filename": "maki_all189.png",
@@ -8087,6 +5435,682 @@
     "sheetnum": 2
   },
   {
+    "filename": "maki_all191.png",
+    "frame": {
+      "x": 1864,
+      "y": 1009,
+      "w": 197,
+      "h": 270
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 400,
+      "y": 161,
+      "w": 197,
+      "h": 270
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all192.png",
+    "frame": {
+      "x": 1628,
+      "y": 1009,
+      "w": 234,
+      "h": 269
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 366,
+      "y": 162,
+      "w": 234,
+      "h": 269
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all193.png",
+    "frame": {
+      "x": 944,
+      "y": 1009,
+      "w": 280,
+      "h": 267
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 320,
+      "y": 162,
+      "w": 280,
+      "h": 267
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all194.png",
+    "frame": {
+      "x": 1057,
+      "y": 745,
+      "w": 289,
+      "h": 260
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 313,
+      "y": 163,
+      "w": 289,
+      "h": 260
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all195.png",
+    "frame": {
+      "x": 1,
+      "y": 745,
+      "w": 288,
+      "h": 257
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 315,
+      "y": 164,
+      "w": 288,
+      "h": 257
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all196.png",
+    "frame": {
+      "x": 1163,
+      "y": 487,
+      "w": 301,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 303,
+      "y": 165,
+      "w": 301,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all197.png",
+    "frame": {
+      "x": 2674,
+      "y": 487,
+      "w": 301,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 303,
+      "y": 302,
+      "w": 301,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all198.png",
+    "frame": {
+      "x": 2370,
+      "y": 487,
+      "w": 302,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 305,
+      "y": 315,
+      "w": 302,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all199.png",
+    "frame": {
+      "x": 1466,
+      "y": 487,
+      "w": 301,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 309,
+      "y": 328,
+      "w": 301,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all200.png",
+    "frame": {
+      "x": 568,
+      "y": 487,
+      "w": 300,
+      "h": 255
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 308,
+      "y": 295,
+      "w": 300,
+      "h": 255
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all201.png",
+    "frame": {
+      "x": 291,
+      "y": 745,
+      "w": 299,
+      "h": 257
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 308,
+      "y": 284,
+      "w": 299,
+      "h": 257
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all202.png",
+    "frame": {
+      "x": 1769,
+      "y": 487,
+      "w": 294,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 312,
+      "y": 279,
+      "w": 294,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all203.png",
+    "frame": {
+      "x": 870,
+      "y": 487,
+      "w": 291,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 313,
+      "y": 276,
+      "w": 291,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all204.png",
+    "frame": {
+      "x": 2065,
+      "y": 487,
+      "w": 303,
+      "h": 256
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 300,
+      "y": 277,
+      "w": 303,
+      "h": 256
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all205.png",
+    "frame": {
+      "x": 754,
+      "y": 745,
+      "w": 301,
+      "h": 258
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 301,
+      "y": 279,
+      "w": 301,
+      "h": 258
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all206.png",
+    "frame": {
+      "x": 253,
+      "y": 1009,
+      "w": 301,
+      "h": 264
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 304,
+      "y": 285,
+      "w": 301,
+      "h": 264
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all207.png",
+    "frame": {
+      "x": 1791,
+      "y": 241,
+      "w": 300,
+      "h": 242
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 306,
+      "y": 333,
+      "w": 300,
+      "h": 242
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all208.png",
+    "frame": {
+      "x": 813,
+      "y": 1,
+      "w": 295,
+      "h": 167
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 308,
+      "y": 379,
+      "w": 295,
+      "h": 167
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all209.png",
+    "frame": {
+      "x": 261,
+      "y": 1,
+      "w": 286,
+      "h": 160
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 310,
+      "y": 375,
+      "w": 286,
+      "h": 160
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all210.png",
+    "frame": {
+      "x": 1,
+      "y": 1,
+      "w": 258,
+      "h": 153
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 347,
+      "y": 385,
+      "w": 258,
+      "h": 153
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all211.png",
+    "frame": {
+      "x": 549,
+      "y": 1,
+      "w": 262,
+      "h": 165
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 385,
+      "y": 379,
+      "w": 262,
+      "h": 165
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all212.png",
+    "frame": {
+      "x": 1110,
+      "y": 1,
+      "w": 218,
+      "h": 196
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 391,
+      "y": 326,
+      "w": 218,
+      "h": 196
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all213.png",
+    "frame": {
+      "x": 2063,
+      "y": 1009,
+      "w": 155,
+      "h": 270
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 396,
+      "y": 250,
+      "w": 155,
+      "h": 270
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all214.png",
+    "frame": {
+      "x": 537,
+      "y": 2174,
+      "w": 154,
+      "h": 314
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 407,
+      "y": 204,
+      "w": 154,
+      "h": 314
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "maki_all215.png",
+    "frame": {
+      "x": 1463,
+      "y": 349,
+      "w": 156,
+      "h": 357
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 414,
+      "y": 160,
+      "w": 156,
+      "h": 357
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all216.png",
+    "frame": {
+      "x": 2021,
+      "y": 1871,
+      "w": 160,
+      "h": 399
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 118,
+      "w": 160,
+      "h": 399
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "maki_all217.png",
     "frame": {
       "x": 177,
@@ -8111,6 +6135,630 @@
       "y": 0.5
     },
     "sheetnum": 2
+  },
+  {
+    "filename": "maki_all218.png",
+    "frame": {
+      "x": 1536,
+      "y": 2276,
+      "w": 168,
+      "h": 415
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 421,
+      "y": 101,
+      "w": 168,
+      "h": 415
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all219.png",
+    "frame": {
+      "x": 2520,
+      "y": 1871,
+      "w": 169,
+      "h": 402
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 114,
+      "w": 169,
+      "h": 402
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all220.png",
+    "frame": {
+      "x": 1037,
+      "y": 1871,
+      "w": 168,
+      "h": 392
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 124,
+      "w": 168,
+      "h": 392
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all221.png",
+    "frame": {
+      "x": 895,
+      "y": 716,
+      "w": 168,
+      "h": 370
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 147,
+      "w": 168,
+      "h": 370
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all222.png",
+    "frame": {
+      "x": 2338,
+      "y": 1481,
+      "w": 168,
+      "h": 387
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 129,
+      "w": 168,
+      "h": 387
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all223.png",
+    "frame": {
+      "x": 1557,
+      "y": 716,
+      "w": 168,
+      "h": 372
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 145,
+      "w": 168,
+      "h": 372
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all224.png",
+    "frame": {
+      "x": 2155,
+      "y": 716,
+      "w": 167,
+      "h": 374
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 143,
+      "w": 167,
+      "h": 374
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all225.png",
+    "frame": {
+      "x": 2547,
+      "y": 716,
+      "w": 167,
+      "h": 376
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 141,
+      "w": 167,
+      "h": 376
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all226.png",
+    "frame": {
+      "x": 1004,
+      "y": 1096,
+      "w": 167,
+      "h": 379
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 138,
+      "w": 167,
+      "h": 379
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all227.png",
+    "frame": {
+      "x": 1,
+      "y": 1481,
+      "w": 167,
+      "h": 383
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 134,
+      "w": 167,
+      "h": 383
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all228.png",
+    "frame": {
+      "x": 607,
+      "y": 1481,
+      "w": 168,
+      "h": 384
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 132,
+      "w": 168,
+      "h": 384
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all229.png",
+    "frame": {
+      "x": 2001,
+      "y": 1481,
+      "w": 167,
+      "h": 386
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 130,
+      "w": 167,
+      "h": 386
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all230.png",
+    "frame": {
+      "x": 2725,
+      "y": 1481,
+      "w": 167,
+      "h": 388
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 128,
+      "w": 167,
+      "h": 388
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all231.png",
+    "frame": {
+      "x": 618,
+      "y": 1871,
+      "w": 166,
+      "h": 392
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 124,
+      "w": 166,
+      "h": 392
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all232.png",
+    "frame": {
+      "x": 726,
+      "y": 716,
+      "w": 167,
+      "h": 370
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 147,
+      "w": 167,
+      "h": 370
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all233.png",
+    "frame": {
+      "x": 2170,
+      "y": 1481,
+      "w": 166,
+      "h": 387
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 129,
+      "w": 166,
+      "h": 387
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all234.png",
+    "frame": {
+      "x": 1388,
+      "y": 716,
+      "w": 167,
+      "h": 372
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 145,
+      "w": 167,
+      "h": 372
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all235.png",
+    "frame": {
+      "x": 1384,
+      "y": 1096,
+      "w": 167,
+      "h": 380
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 137,
+      "w": 167,
+      "h": 380
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all236.png",
+    "frame": {
+      "x": 1164,
+      "y": 1481,
+      "w": 166,
+      "h": 386
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 417,
+      "y": 130,
+      "w": 166,
+      "h": 386
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all237.png",
+    "frame": {
+      "x": 450,
+      "y": 1871,
+      "w": 166,
+      "h": 392
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 417,
+      "y": 124,
+      "w": 166,
+      "h": 392
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all238.png",
+    "frame": {
+      "x": 2352,
+      "y": 1871,
+      "w": 166,
+      "h": 401
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 416,
+      "y": 115,
+      "w": 166,
+      "h": 401
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all239.png",
+    "frame": {
+      "x": 423,
+      "y": 2276,
+      "w": 166,
+      "h": 408
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 415,
+      "y": 108,
+      "w": 166,
+      "h": 408
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all240.png",
+    "frame": {
+      "x": 1369,
+      "y": 2276,
+      "w": 165,
+      "h": 413
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 417,
+      "y": 103,
+      "w": 165,
+      "h": 413
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "maki_all241.png",
+    "frame": {
+      "x": 1706,
+      "y": 2276,
+      "w": 165,
+      "h": 417
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 418,
+      "y": 99,
+      "w": 165,
+      "h": 417
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
   },
   {
     "filename": "maki_all242.png",
@@ -8191,6 +6839,474 @@
     "sheetnum": 2
   },
   {
+    "filename": "winpose00.png",
+    "frame": {
+      "x": 1807,
+      "y": 349,
+      "w": 174,
+      "h": 361
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 419,
+      "y": 155,
+      "w": 174,
+      "h": 361
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose01.png",
+    "frame": {
+      "x": 2704,
+      "y": 1,
+      "w": 169,
+      "h": 346
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 415,
+      "y": 170,
+      "w": 169,
+      "h": 346
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose02.png",
+    "frame": {
+      "x": 2339,
+      "y": 2496,
+      "w": 165,
+      "h": 329
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 410,
+      "y": 187,
+      "w": 165,
+      "h": 329
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose03.png",
+    "frame": {
+      "x": 374,
+      "y": 2174,
+      "w": 161,
+      "h": 312
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 408,
+      "y": 204,
+      "w": 161,
+      "h": 312
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose04.png",
+    "frame": {
+      "x": 1,
+      "y": 1864,
+      "w": 159,
+      "h": 294
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 405,
+      "y": 222,
+      "w": 159,
+      "h": 294
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose05.png",
+    "frame": {
+      "x": 2771,
+      "y": 1009,
+      "w": 160,
+      "h": 276
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 400,
+      "y": 241,
+      "w": 160,
+      "h": 276
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose06.png",
+    "frame": {
+      "x": 592,
+      "y": 745,
+      "w": 160,
+      "h": 258
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 395,
+      "y": 259,
+      "w": 160,
+      "h": 258
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose07.png",
+    "frame": {
+      "x": 865,
+      "y": 241,
+      "w": 151,
+      "h": 239
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 399,
+      "y": 279,
+      "w": 151,
+      "h": 239
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose08.png",
+    "frame": {
+      "x": 1,
+      "y": 487,
+      "w": 151,
+      "h": 245
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 401,
+      "y": 272,
+      "w": 151,
+      "h": 245
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose09.png",
+    "frame": {
+      "x": 1483,
+      "y": 1,
+      "w": 151,
+      "h": 233
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 401,
+      "y": 284,
+      "w": 151,
+      "h": 233
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose10.png",
+    "frame": {
+      "x": 1018,
+      "y": 241,
+      "w": 151,
+      "h": 239
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 398,
+      "y": 278,
+      "w": 151,
+      "h": 239
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose11.png",
+    "frame": {
+      "x": 1330,
+      "y": 1,
+      "w": 151,
+      "h": 224
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 398,
+      "y": 294,
+      "w": 151,
+      "h": 224
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose12.png",
+    "frame": {
+      "x": 2818,
+      "y": 241,
+      "w": 151,
+      "h": 244
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 398,
+      "y": 273,
+      "w": 151,
+      "h": 244
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose13.png",
+    "frame": {
+      "x": 1,
+      "y": 241,
+      "w": 151,
+      "h": 238
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 398,
+      "y": 279,
+      "w": 151,
+      "h": 238
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose14.png",
+    "frame": {
+      "x": 1,
+      "y": 349,
+      "w": 178,
+      "h": 347
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 382,
+      "y": 170,
+      "w": 178,
+      "h": 347
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose15.png",
+    "frame": {
+      "x": 2324,
+      "y": 716,
+      "w": 221,
+      "h": 375
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 360,
+      "y": 131,
+      "w": 221,
+      "h": 375
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose16.png",
+    "frame": {
+      "x": 192,
+      "y": 1871,
+      "w": 256,
+      "h": 390
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 340,
+      "y": 106,
+      "w": 256,
+      "h": 390
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose17.png",
+    "frame": {
+      "x": 1381,
+      "y": 1871,
+      "w": 265,
+      "h": 398
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 332,
+      "y": 92,
+      "w": 265,
+      "h": 398
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "winpose18.png",
     "frame": {
       "x": 2027,
@@ -8243,6 +7359,58 @@
     "sheetnum": 2
   },
   {
+    "filename": "winpose20.png",
+    "frame": {
+      "x": 2233,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose21.png",
+    "frame": {
+      "x": 2773,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "winpose22.png",
     "frame": {
       "x": 541,
@@ -8269,6 +7437,58 @@
     "sheetnum": 2
   },
   {
+    "filename": "winpose23.png",
+    "frame": {
+      "x": 1873,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose24.png",
+    "frame": {
+      "x": 2053,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
     "filename": "winpose25.png",
     "frame": {
       "x": 181,
@@ -8293,6 +7513,58 @@
       "y": 0.5
     },
     "sheetnum": 2
+  },
+  {
+    "filename": "winpose26.png",
+    "frame": {
+      "x": 2593,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose27.png",
+    "frame": {
+      "x": 2413,
+      "y": 2276,
+      "w": 178,
+      "h": 418
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 65,
+      "w": 178,
+      "h": 418
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
   },
   {
     "filename": "winpose28.png",
@@ -8397,6 +7669,734 @@
       "y": 0.5
     },
     "sheetnum": 2
+  },
+  {
+    "filename": "winpose32.png",
+    "frame": {
+      "x": 771,
+      "y": 2276,
+      "w": 251,
+      "h": 411
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 343,
+      "y": 105,
+      "w": 251,
+      "h": 411
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose33.png",
+    "frame": {
+      "x": 1727,
+      "y": 716,
+      "w": 262,
+      "h": 373
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 339,
+      "y": 144,
+      "w": 262,
+      "h": 373
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose34.png",
+    "frame": {
+      "x": 1,
+      "y": 1,
+      "w": 265,
+      "h": 332
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 339,
+      "y": 184,
+      "w": 265,
+      "h": 332
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose35.png",
+    "frame": {
+      "x": 1882,
+      "y": 1864,
+      "w": 261,
+      "h": 306
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 342,
+      "y": 210,
+      "w": 261,
+      "h": 306
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose36.png",
+    "frame": {
+      "x": 1185,
+      "y": 1864,
+      "w": 249,
+      "h": 302
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 348,
+      "y": 214,
+      "w": 249,
+      "h": 302
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose37.png",
+    "frame": {
+      "x": 952,
+      "y": 1864,
+      "w": 231,
+      "h": 297
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 355,
+      "y": 219,
+      "w": 231,
+      "h": 297
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose38.png",
+    "frame": {
+      "x": 2775,
+      "y": 1569,
+      "w": 206,
+      "h": 293
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 363,
+      "y": 223,
+      "w": 206,
+      "h": 293
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose39.png",
+    "frame": {
+      "x": 2585,
+      "y": 1569,
+      "w": 188,
+      "h": 289
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 372,
+      "y": 228,
+      "w": 188,
+      "h": 289
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose40.png",
+    "frame": {
+      "x": 2691,
+      "y": 1864,
+      "w": 203,
+      "h": 308
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 361,
+      "y": 208,
+      "w": 203,
+      "h": 308
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose41.png",
+    "frame": {
+      "x": 1872,
+      "y": 2496,
+      "w": 221,
+      "h": 327
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 353,
+      "y": 189,
+      "w": 221,
+      "h": 327
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 0
+  },
+  {
+    "filename": "winpose42.png",
+    "frame": {
+      "x": 2469,
+      "y": 1,
+      "w": 233,
+      "h": 344
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 348,
+      "y": 172,
+      "w": 233,
+      "h": 344
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose43.png",
+    "frame": {
+      "x": 1983,
+      "y": 349,
+      "w": 237,
+      "h": 361
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 348,
+      "y": 155,
+      "w": 237,
+      "h": 361
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose44.png",
+    "frame": {
+      "x": 1,
+      "y": 1096,
+      "w": 237,
+      "h": 378
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 350,
+      "y": 139,
+      "w": 237,
+      "h": 378
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose45.png",
+    "frame": {
+      "x": 1957,
+      "y": 1096,
+      "w": 228,
+      "h": 381
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 360,
+      "y": 136,
+      "w": 228,
+      "h": 381
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose46.png",
+    "frame": {
+      "x": 170,
+      "y": 1481,
+      "w": 222,
+      "h": 383
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 367,
+      "y": 133,
+      "w": 222,
+      "h": 383
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose47.png",
+    "frame": {
+      "x": 2508,
+      "y": 1481,
+      "w": 215,
+      "h": 387
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 375,
+      "y": 129,
+      "w": 215,
+      "h": 387
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose48.png",
+    "frame": {
+      "x": 1787,
+      "y": 1481,
+      "w": 212,
+      "h": 386
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 378,
+      "y": 130,
+      "w": 212,
+      "h": 386
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose49.png",
+    "frame": {
+      "x": 777,
+      "y": 1481,
+      "w": 211,
+      "h": 384
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 379,
+      "y": 132,
+      "w": 211,
+      "h": 384
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose50.png",
+    "frame": {
+      "x": 394,
+      "y": 1481,
+      "w": 211,
+      "h": 383
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 380,
+      "y": 133,
+      "w": 211,
+      "h": 383
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose51.png",
+    "frame": {
+      "x": 2637,
+      "y": 1096,
+      "w": 210,
+      "h": 383
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 382,
+      "y": 134,
+      "w": 210,
+      "h": 383
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose52.png",
+    "frame": {
+      "x": 1746,
+      "y": 1096,
+      "w": 209,
+      "h": 381
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 384,
+      "y": 136,
+      "w": 209,
+      "h": 381
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose53.png",
+    "frame": {
+      "x": 1173,
+      "y": 1096,
+      "w": 209,
+      "h": 380
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 384,
+      "y": 138,
+      "w": 209,
+      "h": 380
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "winpose54.png",
+    "frame": {
+      "x": 793,
+      "y": 1096,
+      "w": 209,
+      "h": 379
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 385,
+      "y": 139,
+      "w": 209,
+      "h": 379
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "wintoidol0.png",
+    "frame": {
+      "x": 593,
+      "y": 1096,
+      "w": 198,
+      "h": 378
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 383,
+      "y": 139,
+      "w": 198,
+      "h": 378
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "wintoidol1.png",
+    "frame": {
+      "x": 2716,
+      "y": 716,
+      "w": 183,
+      "h": 378
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 384,
+      "y": 139,
+      "w": 183,
+      "h": 378
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "wintoidol2.png",
+    "frame": {
+      "x": 415,
+      "y": 1096,
+      "w": 176,
+      "h": 378
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 389,
+      "y": 139,
+      "w": 176,
+      "h": 378
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "wintoidol3.png",
+    "frame": {
+      "x": 240,
+      "y": 1096,
+      "w": 173,
+      "h": 378
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 396,
+      "y": 139,
+      "w": 173,
+      "h": 378
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
+  },
+  {
+    "filename": "wintoidol4.png",
+    "frame": {
+      "x": 2183,
+      "y": 1871,
+      "w": 167,
+      "h": 400
+    },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": {
+      "x": 405,
+      "y": 117,
+      "w": 167,
+      "h": 400
+    },
+    "sourceSize": {
+      "w": 960,
+      "h": 640
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sheetnum": 1
   },
   {
     "filename": "wintoidol5.png",
