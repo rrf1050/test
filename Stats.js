@@ -152,12 +152,12 @@ var Stats = function () {
 					var heapSize = performance.memory.usedJSHeapSize;
 					var heapSizeLimit = performance.memory.jsHeapSizeLimit;
 
-					mem = Math.round( heapSizeLimit * 0.000000954 );
+					mem = Math.round( heapSize * 0.000000954 );
 					memMin = Math.min( memMin, mem );
 					memMax = Math.max( memMax, mem );
 
 					memText.textContent = mem + ' MB (' + memMin + '-' + memMax + ')';
-					updateGraph( memGraph, 1 );
+					updateGraph( memGraph, heapSize/heapSizeLimit );
 
 				}
 
