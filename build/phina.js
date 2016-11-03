@@ -12287,7 +12287,7 @@ phina.namespace(function() {
       this.superInit();
 
       this.srcRect = phina.geom.Rect();
-			this.images=[];
+			//this.images=[];
       this.setImage(image, width, height);
 			this.distV = phina.geom.Vector2(0,0);
 			this.sheetnum=0;
@@ -12296,7 +12296,7 @@ phina.namespace(function() {
 
     draw: function(canvas) {
 			
-      var image = this.images[this.sheetnum].domElement;
+      var image = this.image.domElement;
 			//var images_left = this.images;
 			//images_left.splice(this.sheetnum,1);
 			//var image = this.image.domElement;
@@ -12321,7 +12321,7 @@ phina.namespace(function() {
       if (typeof image === 'string') {
         image = phina.asset.AssetManager.get('image', image);
       }
-			this.images.push(image);
+			//this.images.push(image);
       this._image = image;
       this.width = this._image.domElement.width;
       this.height = this._image.domElement.height;
