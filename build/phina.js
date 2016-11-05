@@ -6958,12 +6958,6 @@ phina.namespace(function() {
     setup: function(params) {
       this._setupFrame(params.frames);
       this._setupAnim(params.animations);
-			/*this.animations = {};
-			this.animations["default"] = {
-          frames: [].range(0, this.frame),
-          next: "default",
-          frequency: 1,
-      };*/
       return this;
     },
 
@@ -7015,12 +7009,12 @@ phina.namespace(function() {
           //width: unitWidth,
           //height: unitHeight,
 
-					x: _frames[i].frame.x,
-					y: _frames[i].frame.y,
-					width: _frames[i].frame.w,
-					height: _frames[i].frame.h,
-					distx: _frames[i].spriteSourceSize.x,
-					disty: _frames[i].spriteSourceSize.y,
+					x: _frames[i].x,
+					y: _frames[i].y,
+					width: _frames[i].w,
+					height: _frames[i].h,
+					distx: _frames[i].srcx,
+					disty: _frames[i].srcy,
 					sheetnum: _frames[i].sheetnum,
         });
       });
@@ -12287,7 +12281,7 @@ phina.namespace(function() {
       this.superInit();
 
       this.srcRect = phina.geom.Rect();
-			//this.images=[];
+			this.images=[];
       this.setImage(image, width, height);
 			this.distV = phina.geom.Vector2(0,0);
 			this.sheetnum=0;
