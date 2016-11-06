@@ -6518,6 +6518,9 @@ phina.namespace(function() {
     init: function() {
       this.superInit();
       this.context = phina.asset.Sound.getAudioContext();
+			this.context.onstatechange = function() {
+  			console.log(this.context.state);
+			}
       this.gainNode = this.context.createGain();
     },
 
