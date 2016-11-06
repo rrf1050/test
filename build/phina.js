@@ -6519,7 +6519,7 @@ phina.namespace(function() {
       this.superInit();
       this.context = phina.asset.Sound.getAudioContext();
 			this.context.onstatechange = function(e) {
-  			console.log(e.target);
+  			console.log(e.target.context);
 			}
       this.gainNode = this.context.createGain();
     },
