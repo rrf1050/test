@@ -12289,6 +12289,7 @@ phina.namespace(function() {
       this.setImage(image, width, height);
 			this.distV = phina.geom.Vector2(0,0);
 			this.sheetnum=0;
+			this.reverse=false;
 			
     },
 
@@ -12302,14 +12303,15 @@ phina.namespace(function() {
       //   0, 0, image.width, image.height,
       //   -this.width*this.origin.x, -this.height*this.origin.y, this.width, this.height
       //   );
-
+			if(!this.reverse)
+				canvas.context.scale(-1,1);
       var srcRect = this.srcRect;
       canvas.context.drawImage(image,
         Math.floor(srcRect.x), Math.floor(srcRect.y), Math.floor(srcRect.width), Math.floor(srcRect.height),
         Math.floor(canvas.width*(this.scaleX-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y*this.scaleY-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
-        
 				//-this.distV.x*this.scaleX, -this.distV.y*this.scaleY, this._width, this._height
 			);
+			canvas.context.scale(1,1);
 			//(images_left.length).times(function(i){
 			//	canvas.context.drawImage(images_left[i].domElement,0,0,1,1,0,0,1,1);
 			//});
