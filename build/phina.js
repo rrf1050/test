@@ -12305,8 +12305,8 @@ phina.namespace(function() {
 
       var srcRect = this.srcRect;
       canvas.context.drawImage(image,
-        srcRect.x, srcRect.y, srcRect.width, srcRect.height,
-        Math.floor(canvas.width*(this.scaleX-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y*this.scaleY-this._height*this.originY), this._width, this._height
+        Math.floor(srcRect.x), Math.floor(srcRect.y), Math.floor(srcRect.width), Math.floor(srcRect.height),
+        Math.floor(canvas.width*(this.scaleX-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y*this.scaleY-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
         
 				//-this.distV.x*this.scaleX, -this.distV.y*this.scaleY, this._width, this._height
 			);
