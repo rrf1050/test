@@ -11788,8 +11788,8 @@ phina.namespace(function() {
       var y = -h*this.origin.y;
 
       canvas.context.drawImage(image,
-        0, 0, w, h,
-        x, y, w, h
+        0, 0, Math.floor(w), Math.floor(h),
+        Math.floor(x), Math.floor(y), Math.floor(w), Math.floor(h)
         );
     },
   });
@@ -12967,7 +12967,7 @@ phina.namespace(function() {
         this._scenes.each(function(scene) {
           var c = scene.canvas;
           if (c) {
-            this.canvas.context.drawImage(c.domElement, 0, 0, c.width, c.height);
+            this.canvas.context.drawImage(c.domElement, 0, 0, Math.floor(c.width), Math.floor(c.height));
           }
         }, this);
       }
@@ -14493,7 +14493,7 @@ phina.namespace(function() {
       this.world.ClearForces();
       this.world.DrawDebugData();
       var domElement = this.canvas.domElement;
-      canvas.context.drawImage(domElement, 0, 0, domElement.width, domElement.height);
+      canvas.context.drawImage(domElement, 0, 0, Math.floor(domElement.width), Math.floor(domElement.height));
     },
   });
 });
