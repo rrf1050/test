@@ -12294,7 +12294,9 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
-			
+			var sx = 1;
+			if(!this.reverse)
+				sx=-1;
       var image = this.image.domElement;
 			//var images_left = this.images;
 			//images_left.splice(this.sheetnum,1);
@@ -12308,7 +12310,7 @@ phina.namespace(function() {
       var srcRect = this.srcRect;
       canvas.context.drawImage(image,
         Math.floor(srcRect.x), Math.floor(srcRect.y), Math.floor(srcRect.width), Math.floor(srcRect.height),
-        Math.floor(canvas.width*(this.scaleX-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y*this.scaleY-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
+        Math.floor(canvas.width*(sx-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y*this.scaleY-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
 				//-this.distV.x*this.scaleX, -this.distV.y*this.scaleY, this._width, this._height
 			);
 			canvas.context.scale(1,1);
