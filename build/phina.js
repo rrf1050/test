@@ -12295,7 +12295,7 @@ phina.namespace(function() {
 
     draw: function(canvas) {
 			var sx = 1;
-			if(!this.reverse)
+			if(this.reverse)
 				sx=-1;
       var image = this.image.domElement;
 			//var images_left = this.images;
@@ -12305,7 +12305,7 @@ phina.namespace(function() {
       //   0, 0, image.width, image.height,
       //   -this.width*this.origin.x, -this.height*this.origin.y, this.width, this.height
       //   );
-			if(!this.reverse)
+			if(this.reverse)
 				canvas.context.scale(-1,1);
       var srcRect = this.srcRect;
       canvas.context.drawImage(image,
