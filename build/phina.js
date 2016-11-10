@@ -10728,6 +10728,7 @@ phina.namespace(function() {
      * 初期化
      */
     init: function(canvas) {
+			canvas.imageSmoothingEnabled = false;
       if (typeof canvas === 'string') {
         this.canvas = document.querySelector(canvas);
       }
