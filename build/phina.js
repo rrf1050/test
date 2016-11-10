@@ -10728,7 +10728,6 @@ phina.namespace(function() {
      * 初期化
      */
     init: function(canvas) {
-			canvas.context.imageSmoothingEnabled = false;
       if (typeof canvas === 'string') {
         this.canvas = document.querySelector(canvas);
       }
@@ -10740,7 +10739,7 @@ phina.namespace(function() {
       this.context = this.canvas.getContext('2d');
       this.context.lineCap = 'round';
       this.context.lineJoin = 'round';
-			this.imageSmoothingEnabled = false;
+			this.context.imageSmoothingEnabled = false;
     },
 
     /**
