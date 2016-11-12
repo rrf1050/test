@@ -12292,7 +12292,7 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
-			//canvas.imageSmoothingEnabled=false;
+			canvas.imageSmoothingEnabled=false;
 			var sx = 1;
 			if(this.reverse)
 				sx=-1;
