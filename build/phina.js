@@ -12288,6 +12288,9 @@ phina.namespace(function() {
 			this.distV = phina.geom.Vector2(0,0);
 			//this.sheetnum=0;
 			this.reverse=false;
+			if (typeof image === 'string') {
+        this.name = image;
+      }
 			
     },
 
