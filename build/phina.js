@@ -7016,7 +7016,7 @@ phina.namespace(function() {
 					height: _frames[i].h,
 					distx: _frames[i].srcx,
 					disty: _frames[i].srcy,
-					sheetnum: _frames[i].sheetnum,
+					//sheetnum: _frames[i].sheetnum,
         });
       });
     },
@@ -10513,7 +10513,7 @@ phina.namespace(function() {
 
 			this.target.distV.set(frame.distx,frame.disty);
 
-			this.target.sheetnum = frame.sheetnum;
+			//this.target.sheetnum = frame.sheetnum;
 
       if (this.fit) {
         this.target.width = frame.width;
@@ -12286,7 +12286,7 @@ phina.namespace(function() {
 			this.images=[];
       this.setImage(image, width, height);
 			this.distV = phina.geom.Vector2(0,0);
-			this.sheetnum=0;
+			//this.sheetnum=0;
 			this.reverse=false;
 			
     },
