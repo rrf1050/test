@@ -1,4 +1,9 @@
-{
+{	"frame": {
+"width": 1,
+"height": 1,
+"rows": 1241,
+"cols": 950
+	},
 	"frames": [
 		{
 			"name": "jrslash00.png",
