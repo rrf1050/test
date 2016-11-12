@@ -10736,7 +10736,7 @@ phina.namespace(function() {
       this.context = this.canvas.getContext('2d');
       this.context.lineCap = 'round';
       this.context.lineJoin = 'round';
-			this.context.imageSmoothingEnabled = false;
+			//this.context.imageSmoothingEnabled = false;
     },
 
     /**
@@ -12292,7 +12292,7 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
-			canvas.imageSmoothingEnabled=false;
+			//canvas.imageSmoothingEnabled=false;
 			var sx = 1;
 			if(this.reverse)
 				sx=-1;
