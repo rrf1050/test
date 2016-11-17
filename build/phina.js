@@ -11778,6 +11778,7 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
+      canvas.imageSmoothingEnabled=false;
       var image = this.canvas.domElement;
       var w = image.width;
       var h = image.height;
@@ -12609,11 +12610,10 @@ phina.namespace(function() {
     draw: function(canvas) {
       if (!this.domElement) return ;
 
-      canvas.imageSmoothingEnabled=false;
       var image = this.domElement;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
-        Math.floor(-this.width*this.originX),Math.floor(-this.height*this.originY), this.width, this.height
+        -this.width*this.originX,-this.height*this.originY, this.width, this.height
         );
     },
   });
@@ -12650,7 +12650,7 @@ phina.namespace(function() {
       canvas.imageSmoothingEnabled=false;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
-        Math.floor(-this.width*this.originX),  Math.floor(-this.height*this.originY),this.width, this.height
+        -this.width*this.originX, -this.height*this.originY,this.width, this.height
         );
     },
   });
