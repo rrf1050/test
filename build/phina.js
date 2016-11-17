@@ -11155,7 +11155,7 @@ phina.namespace(function() {
           x + Math.cos(rad)*size,
           y + Math.sin(rad)*size
         );
-				
+				this.stroke();
       }
       this.closePath();
       return this;
