@@ -11140,12 +11140,12 @@ phina.namespace(function() {
       var radDiv = (Math.PI*2)/sides;
       var radOffset = (offsetAngle!==undefined) ? offsetAngle*Math.PI/180 : -Math.PI/2;
       
-      this.moveTo(x + Math.cos(radOffset)*size, y + Math.sin(radOffset)*size);
+      this.moveTo(Math.floor(x + Math.cos(radOffset)*size), Math.floor(y + Math.sin(radOffset)*size));
       for (var i=1; i<sides; ++i) {
         var rad = radDiv*i+radOffset;
         this.lineTo(
-          x + Math.cos(rad)*size,
-          y + Math.sin(rad)*size
+          Math.floor(x + Math.cos(rad)*size),
+          Math.floor(y + Math.sin(rad)*size)
         );
       }
       this.closePath();
@@ -12034,7 +12034,6 @@ phina.namespace(function() {
     },
 
     prerender: function(canvas) {
-      canvas.imageSmoothingEnabled=false;
       canvas.polygon(0, 0, this.radius, 3);
     },
 
