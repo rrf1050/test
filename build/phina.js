@@ -11137,25 +11137,17 @@ phina.namespace(function() {
      * ポリゴンパス
      */
     polygon: function(x, y, size, sides, offsetAngle) {
+      this.imageSmoothingEnabled=false;
       var radDiv = (Math.PI*2)/sides;
       var radOffset = (offsetAngle!==undefined) ? offsetAngle*Math.PI/180 : -Math.PI/2;
-      this.beginPath();
+      
       this.moveTo(x + Math.cos(radOffset)*size, y + Math.sin(radOffset)*size);
       for (var i=1; i<sides; ++i) {
-        if(i>1){
-          this.beginPath();
-          var radOffset2 = radDiv*(i-1)+radOffset;
-          this.moveTo(
-            x + Math.cos(radOffset2)*size,
-            y + Math.cos(radOffset2)*size
-          );
-        }
         var rad = radDiv*i+radOffset;
         this.lineTo(
           x + Math.cos(rad)*size,
           y + Math.sin(rad)*size
         );
-				this.stroke();
       }
       this.closePath();
       return this;
@@ -11164,6 +11156,7 @@ phina.namespace(function() {
      * ポリゴン塗りつぶし
      */
     fillPolygon: function(x, y, radius, sides, offsetAngle) {
+      this.imageSmoothingEnabled=false;
       return this.beginPath().polygon(x, y, radius, sides, offsetAngle).fill();
     },
     /**
