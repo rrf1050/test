@@ -12609,6 +12609,7 @@ phina.namespace(function() {
     draw: function(canvas) {
       if (!this.domElement) return ;
 
+      canvas.imageSmoothingEnabled=false;
       var image = this.domElement;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
@@ -12646,6 +12647,7 @@ phina.namespace(function() {
 
     draw: function(canvas) {
       var image = this.domElement;
+      canvas.imageSmoothingEnabled=false;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
         Math.floor(-this.width*this.originX),  Math.floor(-this.height*this.originY),this.width, this.height
