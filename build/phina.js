@@ -7578,7 +7578,7 @@ phina.namespace(function() {
           touch._move(t.pointX, t.pointY);
         });
         e.stop();
-      });
+      },{passive: true});
 
       // iPhone では 6本指以上タッチすると強制的にすべてのタッチが解除される
       this.domElement.addEventListener('touchcancel', function(e) {
@@ -7590,7 +7590,7 @@ phina.namespace(function() {
           delete touchMap[id];
         });
         e.stop();
-      });
+      },{passive: true});
     },
 
     getEmpty: function() {
@@ -12856,8 +12856,8 @@ phina.namespace(function() {
       this.domElement.addEventListener(eventName, this._checkClick.bind(this));
 
       // 決定時の処理をオフにする(iPhone 時のちらつき対策)
-      this.domElement.addEventListener("touchstart", function(e) { e.stop(); });
-      this.domElement.addEventListener("touchmove", function(e) { e.stop(); });
+      this.domElement.addEventListener("touchstart", function(e) { e.stop(); },{passive: true});
+      this.domElement.addEventListener("touchmove", function(e) { e.stop(); },{passive: true});
 
       // ウィンドウフォーカス時イベントリスナを登録
       phina.global.addEventListener('focus', function() {
