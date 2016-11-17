@@ -7484,14 +7484,14 @@ phina.namespace(function() {
       var self = this;
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
-      });
+      },{passive: true});
 
       this.domElement.addEventListener('touchend', function(e) {
         self._end();
-      });
+      },{passive: true});
       this.domElement.addEventListener('touchmove', function(e) {
         self._move(e.pointX, e.pointY);
-      });
+      },{passive: true});
     },
 
     /**
