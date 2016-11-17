@@ -12612,7 +12612,7 @@ phina.namespace(function() {
       var image = this.domElement;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
-        -this.width*this.originX,-this.height*this.originY, this.width, this.height
+        Math.floor(-this.width*this.originX),Math.floor(-this.height*this.originY), this.width, this.height
         );
     },
   });
@@ -12648,7 +12648,7 @@ phina.namespace(function() {
       var image = this.domElement;
       canvas.context.drawImage(image,
         0, 0, image.width, image.height,
-        -this.width*this.originX,  -this.height*this.originY,this.width, this.height
+        Math.floor(-this.width*this.originX),  Math.floor(-this.height*this.originY),this.width, this.height
         );
     },
   });
