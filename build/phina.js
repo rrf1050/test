@@ -11139,14 +11139,23 @@ phina.namespace(function() {
     polygon: function(x, y, size, sides, offsetAngle) {
       var radDiv = (Math.PI*2)/sides;
       var radOffset = (offsetAngle!==undefined) ? offsetAngle*Math.PI/180 : -Math.PI/2;
-      
-      this.moveTo(Math.floor(x + Math.cos(radOffset)*size), Math.floor(y + Math.sin(radOffset)*size));
+      this.beginPath();
+      this.moveTo(x + Math.cos(radOffset)*size, y + Math.sin(radOffset)*size);
       for (var i=1; i<sides; ++i) {
+        if(i>1){
+          this.beginPath();
+          var radOffset2 = radDiv*(i-1)+radOffset;
+          this.moveTo(
+            x + Math.cos(radOffset2)*size,
+            y + Math.cos(radOffset2)*size
+          );
+        }
         var rad = radDiv*i+radOffset;
         this.lineTo(
-          Math.floor(x + Math.cos(rad)*size),
-          Math.floor(y + Math.sin(rad)*size)
+          x + Math.cos(rad)*size,
+          y + Math.sin(rad)*size
         );
+				
       }
       this.closePath();
       return this;
