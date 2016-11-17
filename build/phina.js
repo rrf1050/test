@@ -7562,7 +7562,7 @@ phina.namespace(function() {
           touchMap[t.identifier] = touch;
           touch._start(t.pointX, t.pointY);
         });
-      },{passive: true});
+      });
 
       this.domElement.addEventListener('touchend', function(e) {
         each.call(e.changedTouches, function(t) {
@@ -7571,14 +7571,14 @@ phina.namespace(function() {
           touch._end();
           delete touchMap[id];
         });
-      },{passive: true});
+      });
       this.domElement.addEventListener('touchmove', function(e) {
         each.call(e.changedTouches, function(t) {
           var touch = touchMap[t.identifier];
           touch._move(t.pointX, t.pointY);
         });
         e.stop();
-      },{passive: true});
+      });
 
       // iPhone では 6本指以上タッチすると強制的にすべてのタッチが解除される
       this.domElement.addEventListener('touchcancel', function(e) {
@@ -7590,7 +7590,7 @@ phina.namespace(function() {
           delete touchMap[id];
         });
         e.stop();
-      },{passive: true});
+      });
     },
 
     getEmpty: function() {
@@ -12828,7 +12828,7 @@ phina.namespace(function() {
       this.domElement.addEventListener("touchstart", function () {
         this.pointer = this.touch;
         this.pointers = this.touchList.touches;
-      }.bind(this),{passive: true});
+      }.bind(this));
       this.domElement.addEventListener("mouseover", function () {
         this.pointer = this.mouse;
         this.pointers = [this.mouse];
@@ -12856,8 +12856,8 @@ phina.namespace(function() {
       this.domElement.addEventListener(eventName, this._checkClick.bind(this));
 
       // 決定時の処理をオフにする(iPhone 時のちらつき対策)
-      this.domElement.addEventListener("touchstart", function(e) { e.stop(); },{passive: true});
-      this.domElement.addEventListener("touchmove", function(e) { e.stop(); },{passive: true});
+      this.domElement.addEventListener("touchstart", function(e) { e.stop(); });
+      this.domElement.addEventListener("touchmove", function(e) { e.stop(); });
 
       // ウィンドウフォーカス時イベントリスナを登録
       phina.global.addEventListener('focus', function() {
