@@ -7590,7 +7590,7 @@ phina.namespace(function() {
           delete touchMap[id];
         });
         e.stop();
-      });
+      },{passive: true});
     },
 
     getEmpty: function() {
