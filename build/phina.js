@@ -12347,6 +12347,16 @@ phina.namespace(function() {
 			this.images.push(image);
 			return this;
 		},
+    changeImage: function(image) {
+      if (typeof image === 'string') {
+        image = phina.asset.AssetManager.get('image', image);
+      }
+			//this.images.push(image);
+      this._image = image;
+      this.width = this._image.domElement.width;
+      this.height = this._image.domElement.height;
+      this.frameIndex = 0;
+    },
 
     setFrameIndex: function(index, width, height) {
       var tw  = width || this._width;      // tw
