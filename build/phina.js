@@ -8669,7 +8669,7 @@ phina.namespace(function() {
       this.orientation    = phina.geom.Vector3(0, 0, 0);
 
       if (phina.isMobile()) {
-
+/*
         phina.global.addEventListener("devicemotion", function(e) {
           var acceleration = self.acceleration;
           var gravity = self.gravity;
@@ -8698,7 +8698,7 @@ phina.namespace(function() {
           orientation.beta    = e.beta;   // x(-180~180)
           orientation.gamma   = e.gamma;  // y(-90~90)
         });
-
+*/
       }
     },
 
