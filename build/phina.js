@@ -7484,6 +7484,7 @@ phina.namespace(function() {
       var self = this;
 this.domElement.addEventListener("touchstart",function(e){
 		e.preventDefault();
+    e.stopPropagation();
 });
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
