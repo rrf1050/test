@@ -7484,6 +7484,7 @@ phina.namespace(function() {
       var self = this;
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
+console.log(self.domElement);
       },{passive: true});
 
       this.domElement.addEventListener('touchend', function(e) {
@@ -14654,4 +14655,3 @@ phina.namespace(function() {
 
 
 });
-
