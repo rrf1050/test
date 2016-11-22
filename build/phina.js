@@ -5171,7 +5171,6 @@ phina.namespace(function() {
 
       var fn = function() {
         var delay = self.run();
-        console.log(delay);
         setTimeout(fn, delay);
       };
       fn();
