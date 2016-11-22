@@ -7486,25 +7486,37 @@ phina.namespace(function() {
 this.domElement.addEventListener("touchstart",function(e){
 //		e.preventDefault();
     e.stopPropagation();
-},{passive: true});
+}
+//,{passive: true}
+);
 this.domElement.addEventListener("touchend",function(e){
 //		e.preventDefault();
     e.stopPropagation();
-},{passive: true});
+}
+//,{passive: true}
+);
 this.domElement.addEventListener("touchmove",function(e){
 //		e.preventDefault();
     e.stopPropagation();
-},{passive: true});
+}
+//,{passive: true}
+);
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
-      },{passive: true});
+      }
+//,{passive: true}
+);
 
       this.domElement.addEventListener('touchend', function(e) {
         self._end();
-      },{passive: true});
+      }
+//,{passive: true}
+);
       this.domElement.addEventListener('touchmove', function(e) {
         self._move(e.pointX, e.pointY);
-      },{passive: true});
+      }
+//,{passive: true}
+);
     },
 
     /**
@@ -7588,7 +7600,9 @@ this.domElement.addEventListener("touchend",function(e){
           touchMap[t.identifier] = touch;
           touch._start(t.pointX, t.pointY);
         });
-      },{passive: true});
+      }
+//,{passive: true}
+);
 
       this.domElement.addEventListener('touchend', function(e) {
         each.call(e.changedTouches, function(t) {
@@ -7597,14 +7611,18 @@ this.domElement.addEventListener("touchend",function(e){
           touch._end();
           delete touchMap[id];
         });
-      },{passive: true});
+      }
+//,{passive: true}
+);
       this.domElement.addEventListener('touchmove', function(e) {
         each.call(e.changedTouches, function(t) {
           var touch = touchMap[t.identifier];
           touch._move(t.pointX, t.pointY);
         });
         e.stop();
-      },{passive: true});
+      }
+//,{passive: true}
+);
 
       // iPhone では 6本指以上タッチすると強制的にすべてのタッチが解除される
       this.domElement.addEventListener('touchcancel', function(e) {
@@ -7616,7 +7634,9 @@ this.domElement.addEventListener("touchend",function(e){
           delete touchMap[id];
         });
         e.stop();
-      },{passive: true});
+      }
+//,{passive: true}
+);
     },
 
     getEmpty: function() {
@@ -12866,7 +12886,9 @@ phina.namespace(function() {
       this.domElement.addEventListener("touchstart", function () {
         this.pointer = this.touch;
         this.pointers = this.touchList.touches;
-      }.bind(this),{passive: true});
+      }.bind(this)
+//,{passive: true}
+);
       this.domElement.addEventListener("mouseover", function () {
         this.pointer = this.mouse;
         this.pointers = [this.mouse];
@@ -12894,8 +12916,12 @@ phina.namespace(function() {
       this.domElement.addEventListener(eventName, this._checkClick.bind(this));
 
       // 決定時の処理をオフにする(iPhone 時のちらつき対策)
-      this.domElement.addEventListener("touchstart", function(e) { e.stop(); },{passive: true});
-      this.domElement.addEventListener("touchmove", function(e) { e.stop(); },{passive: true});
+      this.domElement.addEventListener("touchstart", function(e) { e.stop(); }
+//,{passive: true}
+);
+      this.domElement.addEventListener("touchmove", function(e) { e.stop(); }
+//,{passive: true}
+);
 
       // ウィンドウフォーカス時イベントリスナを登録
       phina.global.addEventListener('focus', function() {
