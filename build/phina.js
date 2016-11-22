@@ -7485,15 +7485,15 @@ phina.namespace(function() {
 this.domElement.addEventListener("touchstart",function(e){
 		e.preventDefault();
     e.stopPropagation();
-});
+},{passive: true});
 this.domElement.addEventListener("touchend",function(e){
 		e.preventDefault();
     e.stopPropagation();
-});
+},{passive: true});
 this.domElement.addEventListener("touchmove",function(e){
 		e.preventDefault();
     e.stopPropagation();
-});
+},{passive: true});
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
       },{passive: true});
@@ -7568,6 +7568,19 @@ this.domElement.addEventListener("touchmove",function(e){
 
       var self = this;
       var each = Array.prototype.forEach;
+/*
+this.domElement.addEventListener("touchstart",function(e){
+		e.preventDefault();
+    e.stopPropagation();
+});
+this.domElement.addEventListener("touchmove",function(e){
+		e.preventDefault();
+    e.stopPropagation();
+});
+this.domElement.addEventListener("touchend",function(e){
+		e.preventDefault();
+    e.stopPropagation();
+});*/
       this.domElement.addEventListener('touchstart', function(e) {
         each.call(e.changedTouches, function(t) {
           var touch = self.getEmpty();
