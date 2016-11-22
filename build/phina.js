@@ -7487,35 +7487,35 @@ this.domElement.addEventListener("touchstart",function(e){
 		e.preventDefault();
     e.stopPropagation();
 }
-,{passive: true}
+//,{passive: true}
 );
 this.domElement.addEventListener("touchend",function(e){
 		e.preventDefault();
     e.stopPropagation();
 }
-,{passive: true}
+//,{passive: true}
 );
 this.domElement.addEventListener("touchmove",function(e){
 		e.preventDefault();
     e.stopPropagation();
 }
-,{passive: true}
+//,{passive: true}
 );
       this.domElement.addEventListener('touchstart', function(e) {
         self._start(e.pointX, e.pointY, true);
       }
-,{passive: true}
+//,{passive: true}
 );
 
       this.domElement.addEventListener('touchend', function(e) {
         self._end();
       }
-,{passive: true}
+//,{passive: true}
 );
       this.domElement.addEventListener('touchmove', function(e) {
         self._move(e.pointX, e.pointY);
       }
-,{passive: true}
+//,{passive: true}
 );
     },
 
@@ -7601,7 +7601,7 @@ this.domElement.addEventListener("touchend",function(e){
           touch._start(t.pointX, t.pointY);
         });
       }
-,{passive: true}
+//,{passive: true}
 );
 
       this.domElement.addEventListener('touchend', function(e) {
@@ -7612,7 +7612,7 @@ this.domElement.addEventListener("touchend",function(e){
           delete touchMap[id];
         });
       }
-,{passive: true}
+//,{passive: true}
 );
       this.domElement.addEventListener('touchmove', function(e) {
         each.call(e.changedTouches, function(t) {
@@ -7621,7 +7621,7 @@ this.domElement.addEventListener("touchend",function(e){
         });
         e.stop();
       }
-,{passive: true}
+//,{passive: true}
 );
 
       // iPhone では 6本指以上タッチすると強制的にすべてのタッチが解除される
@@ -7635,7 +7635,7 @@ this.domElement.addEventListener("touchend",function(e){
         });
         e.stop();
       }
-,{passive: true}
+//,{passive: true}
 );
     },
 
@@ -12887,7 +12887,7 @@ phina.namespace(function() {
         this.pointer = this.touch;
         this.pointers = this.touchList.touches;
       }.bind(this)
-,{passive: true}
+//,{passive: true}
 );
       this.domElement.addEventListener("mouseover", function () {
         this.pointer = this.mouse;
@@ -12917,10 +12917,10 @@ phina.namespace(function() {
 
       // 決定時の処理をオフにする(iPhone 時のちらつき対策)
       this.domElement.addEventListener("touchstart", function(e) { e.stop(); }
-,{passive: true}
+//,{passive: true}
 );
       this.domElement.addEventListener("touchmove", function(e) { e.stop(); }
-,{passive: true}
+//,{passive: true}
 );
 
       // ウィンドウフォーカス時イベントリスナを登録
