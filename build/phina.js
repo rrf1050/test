@@ -10662,7 +10662,7 @@ phina.namespace(function() {
    */
   Event.prototype.stop = function() {
     // イベントキャンセル
-    //this.preventDefault();
+    this.preventDefault();
     // イベント伝達を止める
     this.stopPropagation();
   };
