@@ -7483,15 +7483,15 @@ phina.namespace(function() {
 
       var self = this;
 this.domElement.addEventListener("touchstart",function(e){
-		e.preventDefault();
+//		e.preventDefault();
     e.stopPropagation();
 },{passive: true});
 this.domElement.addEventListener("touchend",function(e){
-		e.preventDefault();
+//		e.preventDefault();
     e.stopPropagation();
 },{passive: true});
 this.domElement.addEventListener("touchmove",function(e){
-		e.preventDefault();
+//		e.preventDefault();
     e.stopPropagation();
 },{passive: true});
       this.domElement.addEventListener('touchstart', function(e) {
