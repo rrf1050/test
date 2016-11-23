@@ -11836,8 +11836,8 @@ phina.namespace(function() {
       var y = -h*this.origin.y;
 
       canvas.context.drawImage(image,
-        0, 0, w, h,
-        x, y, w, h
+        0, 0, Math.floor(w), Math.floor(h),
+        Math.floor(x), Math.floor(y), Math.floor(w), Math.floor(h)
         );
     },
   });
