@@ -11827,6 +11827,7 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
+      canvas.imageSmoothingEnabled=false;
       var image = this.canvas.domElement;
       var w = image.width;
       var h = image.height;
