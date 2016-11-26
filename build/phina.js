@@ -5169,9 +5169,11 @@ phina.namespace(function() {
 
       this.startTime = this.currentTime = (new Date()).getTime();
 
-      var fn = function() {
+      var fn = function(timestamp) {
+        var progress = timestamp - self.startTime;
         var delay = self.run();
         //setTimeout(fn, delay);
+        if(progress < 2000)
         webkitRequestAnimationFrame(fn);
       };
       fn();
