@@ -5171,7 +5171,7 @@ phina.namespace(function() {
 
       var fn = function(timestamp) {
         var progress = timestamp - self.startTime;
-        console.log(progress);
+        console.log(timestamp,self.startTime);
         var delay = self.run();
         //setTimeout(fn, delay);
         //if(progress < 2000){
