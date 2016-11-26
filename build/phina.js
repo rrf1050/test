@@ -5135,6 +5135,7 @@ phina.namespace(function() {
       this.frame = 0;
       this.deltaTime = 0;
       this.elapsedTime = 0;
+      this.frameflag=true;
     },
 
     tick: function(func) {
@@ -5152,9 +5153,15 @@ phina.namespace(function() {
       this.flare('tick');
       var end = (new Date()).getTime();
 
+      
       // フレームを更新
-      this.frame += 1;
-
+      if(this.frameflag){
+      	this.frame += 1;
+        this.frameflag=false;
+      }
+      else{
+        this.frameflag=true;
+      }
       // calculate elapsed time
       var elapsed = end-start;
 
