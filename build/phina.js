@@ -5171,7 +5171,8 @@ phina.namespace(function() {
 
       var fn = function() {
         var delay = self.run();
-        setTimeout(fn, delay);
+        //setTimeout(fn, delay);
+        webkitRequestAnimationFrame(fn);
       };
       fn();
 
