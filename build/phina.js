@@ -5173,8 +5173,9 @@ phina.namespace(function() {
         var progress = timestamp - self.startTime;
         var delay = self.run();
         //setTimeout(fn, delay);
-        if(progress < 2000)
+        //if(progress < 2000){
         requestAnimationFrame(fn);
+        //}
       };
       fn();
 
