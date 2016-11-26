@@ -5135,7 +5135,6 @@ phina.namespace(function() {
       this.frame = 0;
       this.deltaTime = 0;
       this.elapsedTime = 0;
-      this.frameflag=true;
     },
 
     tick: function(func) {
@@ -5155,13 +5154,7 @@ phina.namespace(function() {
 
       
       // フレームを更新
-      if(this.frameflag){
-      	this.frame += 1;
-        this.frameflag=false;
-      }
-      else{
-        this.frameflag=true;
-      }
+      this.frame += 1;
       // calculate elapsed time
       var elapsed = end-start;
 
@@ -8975,6 +8968,7 @@ phina.namespace(function() {
 
       this.awake = true;
       this.ticker = phina.util.Ticker();
+      this.frameflag=true;
     },
 
     run: function() {
@@ -9109,6 +9103,7 @@ phina.namespace(function() {
     },
 
     _loop: function() {
+      if(this.frameflag){
       this._update();
       this._draw();
 
@@ -9116,6 +9111,11 @@ phina.namespace(function() {
 
       // stats update
       if (this.stats) this.stats.update();
+      this.frameflag=false;
+      }
+      else{
+      this.frameflag=true;
+      }
     },
 
     _update: function() {
