@@ -9102,7 +9102,6 @@ phina.namespace(function() {
     },
 
     _loop: function() {
-      console.log(this.fps);
       if(this.frameflag){
       this._update();
       this._draw();
