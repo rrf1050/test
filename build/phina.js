@@ -13047,7 +13047,7 @@ phina.namespace(function() {
           document.body.appendChild(options.domElement);
         }
       }
-      if(!options.runner && phina.isAndroid()) {
+      if(!options.runner) {
         options.runner = phina.global.requestAnimationFrame;
       }
       this.superInit(options);
