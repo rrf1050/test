@@ -9144,7 +9144,7 @@ phina.namespace(function() {
     },
 
     _loop: function() {
-      //if(this.frameflag){
+      if(this.frameflag){
       this._update();
       this._draw();
 
