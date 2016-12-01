@@ -9008,8 +9008,8 @@ phina.namespace(function() {
 
       this.awake = true;
       this.ticker = phina.util.Ticker();
-      //this.frameflag=true;
-      //this.framecount = 0;
+      this.frameflag=true;
+      this.framecount = 0;
     },
 
     run: function() {
@@ -9152,15 +9152,15 @@ phina.namespace(function() {
 
       // stats update
       if (this.stats) this.stats.update();
-      //this.frameflag=false;
-      //}
-      //else{
-      //this.framecount++;
-      //if(60/(this.framecount+1)==this.fps){
-      //this.framecount=0;
-      //this.frameflag=true;
-      //}
-      //}
+      this.frameflag=false;
+      }
+      else{
+      this.framecount++;
+      if(60/(this.framecount+1)==this.fps){
+      this.framecount=0;
+      this.frameflag=true;
+      }
+      }
     },
 
     _update: function() {
