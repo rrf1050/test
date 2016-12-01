@@ -9959,7 +9959,7 @@ phina.namespace(function() {
   var Tweener = phina.define('phina.accessory.Tweener', {
     superClass: 'phina.accessory.Accessory',
 
-    updateType: 'delta',
+    updateType: 'normal',
 
     /**
      * @constructor
