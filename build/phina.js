@@ -5191,7 +5191,7 @@ phina.namespace(function() {
       // 全体の経過時間
       //this.elapsedTime = now - this.startTime;
       //var start = this.currentTime = now;
-      if(delta > (1000/this.fps)){
+      if(this.delta > (1000/this.fps)){
         this.flare('tick');
 
         // フレームを更新
