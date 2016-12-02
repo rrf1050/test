@@ -5193,6 +5193,7 @@ phina.namespace(function() {
 
         // フレームを更新
         this.frame+=1;
+        this.currentTime = now - (this.deltaTime % (1000/this.fps));
       }
 
       var end = (new Date()).getTime();
