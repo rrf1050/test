@@ -5175,6 +5175,7 @@ phina.namespace(function() {
       this.deltaTime = 0;
       this.elapsedTime = 0;
       this.runner = phina.util.Ticker.runner;
+      this.then = Date.now();
     },
 
     tick: function(func) {
@@ -5183,10 +5184,10 @@ phina.namespace(function() {
 
     run: function() {
       //var now = (new Date()).getTime();
-      var now = Date.now();
+      this.now = Date.now();
       // 1フレームに掛かった時間
       //this.deltaTime = now - this.currentTime;
-      var delta = now - this.startTime;
+      this.delta = this.now - this.then;
       // 全体の経過時間
       //this.elapsedTime = now - this.startTime;
       //var start = this.currentTime = now;
@@ -5195,7 +5196,7 @@ phina.namespace(function() {
 
         // フレームを更新
         this.frame+=1;
-        delta = now - (delta % (1000/this.fps));
+        this.then = this.now - (this.delta % (1000/this.fps));
       }
 
       //var end = (new Date()).getTime();
@@ -5215,7 +5216,8 @@ phina.namespace(function() {
       var self = this;
 
       //this.startTime = this.currentTime = (new Date()).getTime();
-      this.startTime = this.currentTime = Date.now();
+      //this.startTime = this.currentTime = Date.now();
+      this.then = Date.now();
       var runner = self.runner;
       var fn = function(timestamp) {
         runner(fn);
