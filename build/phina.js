@@ -5187,14 +5187,18 @@ phina.namespace(function() {
       this.deltaTime = now - this.currentTime;
       // 全体の経過時間
       this.elapsedTime = now - this.startTime;
-
       var start = this.currentTime = now;
-      this.flare('tick');
+      if(this.deltaTime > (1000/this.fps)){
+        this.flare('tick');
+
+        // フレームを更新
+        this.frame+=1;
+      }
+
       var end = (new Date()).getTime();
 
       
-      // フレームを更新
-      this.frame += 1;
+      
       // calculate elapsed time
       var elapsed = end-start;
 
@@ -9008,8 +9012,8 @@ phina.namespace(function() {
 
       this.awake = true;
       this.ticker = phina.util.Ticker();
-      this.frameflag=true;
-      this.framecount = 0;
+      //this.frameflag=true;
+      //this.framecount = 0;
     },
 
     run: function() {
@@ -9144,23 +9148,23 @@ phina.namespace(function() {
     },
 
     _loop: function() {
-      if(this.frameflag){
+      //if(this.frameflag){
       this._update();
       this._draw();
 
       this.interactive.check(this.currentScene);
 
       // stats update
-      if (this.stats) this.stats.update();
-      this.frameflag=false;
-      }
-      else{
-      this.framecount++;
-      if(60/(this.framecount+1)==this.fps){
-      this.framecount=0;
-      this.frameflag=true;
-      }
-      }
+      //if (this.stats) this.stats.update();
+      //this.frameflag=false;
+      //}
+      //else{
+      //this.framecount++;
+      //if(60/(this.framecount+1)==this.fps){
+      //this.framecount=0;
+      //this.frameflag=true;
+      //}
+      //}
     },
 
     _update: function() {
