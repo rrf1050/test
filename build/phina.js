@@ -12419,7 +12419,7 @@ phina.namespace(function() {
       var srcRect = this.srcRect;
       canvas.context.drawImage(image,
         Math.floor(srcRect.x), Math.floor(srcRect.y), Math.floor(srcRect.width), Math.floor(srcRect.height),
-        Math.floor(canvas.width*(sx-1)/2+this.distV.x*Math.abs(this.scaleX)-this._width*this.originX), Math.floor(this.distV.y*Math.abs(this.scaleY)-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
+        Math.floor(canvas.width*(sx-1)/2+this.distV.x-this._width*this.originX), Math.floor(this.distV.y-this._height*this.originY), Math.floor(this._width), Math.floor(this._height)
 				//-this.distV.x*this.scaleX, -this.distV.y*this.scaleY, this._width, this._height
 			);
 			canvas.context.scale(1,1);
