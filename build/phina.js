@@ -9160,7 +9160,7 @@ phina.namespace(function() {
       this.interactive.check(this.currentScene);
 
       // stats update
-      //if (this.stats) this.stats.update();
+      if (this.stats) this.stats.update();
       //this.frameflag=false;
       //}
       //else{
