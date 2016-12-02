@@ -5183,44 +5183,44 @@ phina.namespace(function() {
     },
 
     run: function() {
-      var now = (new Date()).getTime();
-      //this.now = Date.now();
+      //var now = (new Date()).getTime();
+      this.now = Date.now();
       // 1フレームに掛かった時間
-      this.deltaTime = now - this.currentTime;
-      //this.delta = this.now - this.then;
+      //this.deltaTime = now - this.currentTime;
+      this.delta = this.now - this.then;
       // 全体の経過時間
-      this.elapsedTime = now - this.startTime;
-      var start = this.currentTime = now;
-      //if(this.delta > (1000/this.fps)){
+      //this.elapsedTime = now - this.startTime;
+      //var start = this.currentTime = now;
+      if(this.delta > (1000/this.fps)){
         this.flare('tick');
 
         // フレームを更新
         this.frame+=1;
-        //this.then = this.now - (this.delta % (1000/this.fps));
-      //}
+        this.then = this.now - (this.delta % (1000/this.fps));
+      }
 
-      var end = (new Date()).getTime();
+      //var end = (new Date()).getTime();
 
       
       
       // calculate elapsed time
-      var elapsed = end-start;
+      //var elapsed = end-start;
 
       // calculate next waiting time
-      var delay = Math.max(this.frameTime-elapsed, 0);
+      //var delay = Math.max(this.frameTime-elapsed, 0);
 
-      return delay;
+      //return delay;
     },
 
     start: function() {
       var self = this;
 
-      this.startTime = this.currentTime = (new Date()).getTime();
-      //this.then = Date.now();
+      //this.startTime = this.currentTime = (new Date()).getTime();
+      this.then = Date.now();
       var runner = self.runner;
       var fn = function(timestamp) {
-        var delay = self.run();
-        runner(fn,delay);
+        runner(fn);
+        self.run();
       };
       fn();
 
