@@ -5182,41 +5182,44 @@ phina.namespace(function() {
     },
 
     run: function() {
-      var now = (new Date()).getTime();
+      //var now = (new Date()).getTime();
+      var now = Date.now();
       // 1フレームに掛かった時間
-      this.deltaTime = now - this.currentTime;
+      //this.deltaTime = now - this.currentTime;
+      var delta = now - this.startTime;
       // 全体の経過時間
-      this.elapsedTime = now - this.startTime;
-      var start = this.currentTime = now;
-      if(this.deltaTime > (1000/this.fps)){
+      //this.elapsedTime = now - this.startTime;
+      //var start = this.currentTime = now;
+      if(delta > (1000/this.fps)){
         this.flare('tick');
 
         // フレームを更新
         this.frame+=1;
-        this.currentTime = now - (this.deltaTime % (1000/this.fps));
+        delta = now - (delta % (1000/this.fps));
       }
 
-      var end = (new Date()).getTime();
+      //var end = (new Date()).getTime();
 
       
       
       // calculate elapsed time
-      var elapsed = end-start;
+      //var elapsed = end-start;
 
       // calculate next waiting time
-      var delay = Math.max(this.frameTime-elapsed, 0);
+      //var delay = Math.max(this.frameTime-elapsed, 0);
 
-      return delay;
+      //return delay;
     },
 
     start: function() {
       var self = this;
 
-      this.startTime = this.currentTime = (new Date()).getTime();
+      //this.startTime = this.currentTime = (new Date()).getTime();
+      this.startTime = this.currentTime = Date.now();
       var runner = self.runner;
       var fn = function(timestamp) {
-        var delay = self.run();
-        runner(fn,delay);
+        runner(fn);
+        self.run();
       };
       fn();
 
