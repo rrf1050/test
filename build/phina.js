@@ -12441,6 +12441,7 @@ phina.namespace(function() {
       if (typeof image === 'string') {
         image = phina.asset.AssetManager.get('image', image);
       }
+      image.crossOrigin = 'anonymous';
 			//this.images.push(image);
       this._image = image;
       this.width = this._image.domElement.width;
