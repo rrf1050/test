@@ -12411,13 +12411,11 @@ phina.namespace(function() {
     },
 
     draw: function(canvas) {
-			
 			canvas.imageSmoothingEnabled=false;
 			var sx = 1;
 			if(this.reverse)
 				sx=-1;
       var image = this.image.domElement;
-      image.crossOrigin = 'anonymous';
 			//var images_left = this.images;
 			//images_left.splice(this.sheetnum,1);
 			//var image = this.image.domElement;
@@ -12443,7 +12441,6 @@ phina.namespace(function() {
       if (typeof image === 'string') {
         image = phina.asset.AssetManager.get('image', image);
       }
-      
 			//this.images.push(image);
       this._image = image;
       this.width = this._image.domElement.width;
